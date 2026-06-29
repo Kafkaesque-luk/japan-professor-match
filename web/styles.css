@@ -1,0 +1,136 @@
+/* professor-match terminal — teal system, no emoji, zero dependencies */
+:root {
+  --teal: #50b7b6;
+  --teal-dark: #3d9a99;
+  --teal-tint: #eaf6f6;
+  --ink: #1f2937;
+  --muted: #6b7280;
+  --line: #e6e8eb;
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --amber: #b8862f;
+  --radius: 12px;
+  --shadow: 0 1px 2px rgba(16, 24, 40, .04), 0 4px 16px rgba(16, 24, 40, .06);
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+          "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+button { font-family: inherit; cursor: pointer; }
+input, select, textarea { font-family: inherit; font-size: 14px; }
+
+/* ---- top bar ---- */
+.topbar {
+  display: flex; align-items: center; gap: 24px;
+  height: 60px; padding: 0 24px;
+  background: var(--card); border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; z-index: 10;
+}
+.brand { font-weight: 700; font-size: 17px; letter-spacing: .2px; }
+.brand .dot { color: var(--teal); }
+.brand-sub { color: var(--muted); font-weight: 500; font-size: 13px; margin-left: 8px; }
+.tabs { display: flex; gap: 4px; }
+.tabs button {
+  border: none; background: transparent; color: var(--muted);
+  padding: 8px 14px; border-radius: 8px; font-size: 14px; font-weight: 600;
+}
+.tabs button.active { background: var(--teal-tint); color: var(--teal-dark); }
+.spacer { flex: 1; }
+.conn-pill {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12.5px; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px;
+}
+.conn-pill .led { width: 8px; height: 8px; border-radius: 50%; background: #cbd5e1; }
+.conn-pill.ok .led { background: var(--teal); }
+.conn-pill.bad .led { background: #e06b6b; }
+
+/* ---- layout ---- */
+main { max-width: 1080px; margin: 24px auto; padding: 0 24px 64px; }
+.card {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px;
+  margin-bottom: 20px;
+}
+.card h2 { margin: 0 0 4px; font-size: 15px; }
+.card .hint { color: var(--muted); font-size: 12.5px; margin: 0 0 16px; }
+.grid { display: grid; gap: 16px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+label.fld { display: block; font-size: 12.5px; font-weight: 600; color: var(--muted); margin-bottom: 6px; }
+
+textarea, input[type=text], select {
+  width: 100%; padding: 10px 12px; border: 1px solid var(--line);
+  border-radius: 8px; background: #fff; color: var(--ink); outline: none;
+}
+textarea:focus, input:focus, select:focus { border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-tint); }
+textarea { resize: vertical; min-height: 84px; }
+
+/* ---- chips ---- */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  border: 1px solid var(--line); background: #fff; color: var(--ink);
+  padding: 6px 12px; border-radius: 999px; font-size: 13px; user-select: none;
+}
+.chip.on { background: var(--teal); border-color: var(--teal); color: #fff; }
+
+/* ---- buttons ---- */
+.btn {
+  background: var(--teal); color: #fff; border: none; padding: 11px 22px;
+  border-radius: 9px; font-weight: 700; font-size: 14px;
+}
+.btn:hover { background: var(--teal-dark); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn.ghost { background: #fff; color: var(--teal-dark); border: 1px solid var(--teal); }
+.btn.ghost:hover { background: var(--teal-tint); }
+
+/* ---- results ---- */
+.tier-tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+.tier-tab {
+  border: 1px solid var(--line); background: #fff; border-radius: 9px;
+  padding: 10px 16px; min-width: 132px; text-align: left;
+}
+.tier-tab.active { border-color: var(--teal); background: var(--teal-tint); }
+.tier-tab .t-name { font-weight: 700; font-size: 13.5px; display: block; }
+.tier-tab .t-sub { color: var(--muted); font-size: 12px; }
+.tier-tab .t-count { color: var(--teal-dark); font-weight: 700; }
+
+.school { border: 1px solid var(--line); border-radius: var(--radius); margin-bottom: 14px; overflow: hidden; }
+.school-head {
+  display: flex; align-items: baseline; gap: 10px;
+  padding: 12px 16px; background: #fafbfc; border-bottom: 1px solid var(--line);
+}
+.school-name { font-weight: 700; font-size: 14px; }
+.school-meta { color: var(--muted); font-size: 12px; }
+.prof { display: flex; align-items: center; gap: 14px; padding: 12px 16px; border-top: 1px solid #f1f2f4; }
+.prof:first-child { border-top: none; }
+.prof-main { flex: 1; min-width: 0; }
+.prof-name { font-weight: 600; }
+.prof-title { color: var(--muted); font-size: 12.5px; }
+.badges { display: flex; gap: 6px; align-items: center; flex-shrink: 0; }
+.badge { font-size: 12px; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+.badge.score { background: var(--teal-tint); color: var(--teal-dark); font-weight: 700; }
+.badge.age { background: #f3f4f6; color: var(--ink); }
+.badge.rank { background: #fff; border: 1px solid var(--line); color: var(--muted); }
+
+.kw { color: var(--muted); font-size: 12.5px; margin: 4px 0 18px; }
+.kw b { color: var(--teal-dark); font-weight: 600; }
+.disc-ind { display: inline-flex; gap: 8px; align-items: center; font-size: 12.5px; color: var(--muted); margin-bottom: 12px; }
+.disc-ind .v { color: var(--ink); font-weight: 600; }
+.disc-ind .auto { color: var(--teal-dark); }
+
+.empty { color: var(--muted); text-align: center; padding: 40px 0; }
+.err { color: #b3261e; background: #fdecea; border: 1px solid #f5c2bd; padding: 10px 14px; border-radius: 9px; font-size: 13px; }
+.kvs { display: grid; grid-template-columns: 160px 1fr; gap: 8px 16px; font-size: 13px; }
+.kvs .k { color: var(--muted); }
+.muted { color: var(--muted); }
+.skeleton { background: linear-gradient(90deg, #f0f1f3 25%, #e7e9ec 37%, #f0f1f3 63%); background-size: 400% 100%; animation: sh 1.3s ease infinite; border-radius: 8px; }
+@keyframes sh { 0% { background-position: 100% 0 } 100% { background-position: 0 0 } }

@@ -1,0 +1,3063 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-06T17:04:10.709380",
+    "total_categories": 306,
+    "matched_count": 306,
+    "unmatched_count": 0,
+    "description": "三级学科分类ID与ResearchMap URL的映射关系"
+  },
+  "mapping": {
+    "1062": {
+      "category_id": 1062,
+      "japanese_name": "材料力学、機械材料",
+      "normalized_name": "材料力学、機械材料",
+      "code": "A18010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A18010&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "机械工程"
+    },
+    "1063": {
+      "category_id": 1063,
+      "japanese_name": "加工学、生産工学",
+      "normalized_name": "加工学、生産工学",
+      "code": "A18020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A18020&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "机械工程"
+    },
+    "1064": {
+      "category_id": 1064,
+      "japanese_name": "設計工学",
+      "normalized_name": "設計工学",
+      "code": "A18030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A18030&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "机械工程"
+    },
+    "1065": {
+      "category_id": 1065,
+      "japanese_name": "機械要素、トライボロジー",
+      "normalized_name": "機械要素、トライボロジー",
+      "code": "A18040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A18040&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "机械工程"
+    },
+    "1066": {
+      "category_id": 1066,
+      "japanese_name": "流体工学",
+      "normalized_name": "流体工学",
+      "code": "A19010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A19010&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "机械工程"
+    },
+    "1067": {
+      "category_id": 1067,
+      "japanese_name": "熱工学",
+      "normalized_name": "熱工学",
+      "code": "A19020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A19020&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "机械工程"
+    },
+    "1068": {
+      "category_id": 1068,
+      "japanese_name": "電力工学",
+      "normalized_name": "電力工学",
+      "code": "A21010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A21010&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "电气电子工程"
+    },
+    "1069": {
+      "category_id": 1069,
+      "japanese_name": "通信工学",
+      "normalized_name": "通信工学",
+      "code": "A21020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A21020&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "电气电子工程"
+    },
+    "1070": {
+      "category_id": 1070,
+      "japanese_name": "計測工学",
+      "normalized_name": "計測工学",
+      "code": "A21030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A21030&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "电气电子工程"
+    },
+    "1071": {
+      "category_id": 1071,
+      "japanese_name": "制御、システム工学",
+      "normalized_name": "制御、システム工学",
+      "code": "A21040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A21040&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "电气电子工程"
+    },
+    "1072": {
+      "category_id": 1072,
+      "japanese_name": "電気電子材料工学",
+      "normalized_name": "電気電子材料工学",
+      "code": "A21050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A21050&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "电气电子工程"
+    },
+    "1073": {
+      "category_id": 1073,
+      "japanese_name": "電子デバイス、電子機器",
+      "normalized_name": "電子デバイス、電子機器",
+      "code": "A21060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A21060&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "电气电子工程"
+    },
+    "1074": {
+      "category_id": 1074,
+      "japanese_name": "移動現象、単位操作",
+      "normalized_name": "移動現象、単位操作",
+      "code": "A27010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A27010&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "化学工程"
+    },
+    "1075": {
+      "category_id": 1075,
+      "japanese_name": "反応工学、プロセスシステム工学",
+      "normalized_name": "反応工学、プロセスシステム工学",
+      "code": "A27020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A27020&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "化学工程"
+    },
+    "1076": {
+      "category_id": 1076,
+      "japanese_name": "触媒プロセス、資源化学プロセス",
+      "normalized_name": "触媒プロセス、資源化学プロセス",
+      "code": "A27030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A27030&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "化学工程"
+    },
+    "1077": {
+      "category_id": 1077,
+      "japanese_name": "バイオ機能応用、バイオプロセス工学",
+      "normalized_name": "バイオ機能応用、バイオプロセス工学",
+      "code": "A27040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A689&research_areas%5Bitem_number%5D=A27040&institution_type=A04",
+      "major_category": "ものづくり技術（機械・電気電子・化学工学）",
+      "major_code": "A689",
+      "middle_category": "化学工程"
+    },
+    "1078": {
+      "category_id": 1078,
+      "japanese_name": "基礎法学",
+      "normalized_name": "基礎法学",
+      "code": "A05010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A05010&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "法学"
+    },
+    "1079": {
+      "category_id": 1079,
+      "japanese_name": "公法学",
+      "normalized_name": "公法学",
+      "code": "A05020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A05020&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "法学"
+    },
+    "1080": {
+      "category_id": 1080,
+      "japanese_name": "国際法学",
+      "normalized_name": "国際法学",
+      "code": "A05030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A05030&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "法学"
+    },
+    "1081": {
+      "category_id": 1081,
+      "japanese_name": "社会法学",
+      "normalized_name": "社会法学",
+      "code": "A05040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A05040&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "法学"
+    },
+    "1082": {
+      "category_id": 1082,
+      "japanese_name": "刑事法学",
+      "normalized_name": "刑事法学",
+      "code": "A05050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A05050&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "法学"
+    },
+    "1083": {
+      "category_id": 1083,
+      "japanese_name": "民事法学",
+      "normalized_name": "民事法学",
+      "code": "A05060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A05060&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "法学"
+    },
+    "1084": {
+      "category_id": 1084,
+      "japanese_name": "新領域法学",
+      "normalized_name": "新領域法学",
+      "code": "A05070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A05070&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "法学"
+    },
+    "1085": {
+      "category_id": 1085,
+      "japanese_name": "政治学",
+      "normalized_name": "政治学",
+      "code": "A06010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A06010&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "政治学"
+    },
+    "1086": {
+      "category_id": 1086,
+      "japanese_name": "理論経済学",
+      "normalized_name": "理論経済学",
+      "code": "A07010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A07010&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1087": {
+      "category_id": 1087,
+      "japanese_name": "経済学説、経済思想",
+      "normalized_name": "経済学説、経済思想",
+      "code": "A07020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A07020&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1088": {
+      "category_id": 1088,
+      "japanese_name": "経済統計",
+      "normalized_name": "経済統計",
+      "code": "A07030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A07030&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1089": {
+      "category_id": 1089,
+      "japanese_name": "経済政策",
+      "normalized_name": "経済政策",
+      "code": "A07040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A07040&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1090": {
+      "category_id": 1090,
+      "japanese_name": "公共経済、労働経済",
+      "normalized_name": "公共経済、労働経済",
+      "code": "A07050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A07050&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1091": {
+      "category_id": 1091,
+      "japanese_name": "金融、ファイナンス",
+      "normalized_name": "金融、ファイナンス",
+      "code": "A07060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A07060&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1092": {
+      "category_id": 1092,
+      "japanese_name": "経済史",
+      "normalized_name": "経済史",
+      "code": "A07070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A07070&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1093": {
+      "category_id": 1093,
+      "japanese_name": "経営学",
+      "normalized_name": "経営学",
+      "code": "A07080",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A07080&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1094": {
+      "category_id": 1094,
+      "japanese_name": "商学",
+      "normalized_name": "商学",
+      "code": "A07090",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A07090&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1095": {
+      "category_id": 1095,
+      "japanese_name": "会計学",
+      "normalized_name": "会計学",
+      "code": "A07100",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A07100&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1096": {
+      "category_id": 1096,
+      "japanese_name": "食料農業経済",
+      "normalized_name": "食料農業経済",
+      "code": "A41010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A41010&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "经济学与管理学"
+    },
+    "1097": {
+      "category_id": 1097,
+      "japanese_name": "社会学",
+      "normalized_name": "社会学",
+      "code": "A08010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A08010&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "社会学与社会福祉"
+    },
+    "1098": {
+      "category_id": 1098,
+      "japanese_name": "社会福祉学",
+      "normalized_name": "社会福祉学",
+      "code": "A08020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A08020&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "社会学与社会福祉"
+    },
+    "1099": {
+      "category_id": 1099,
+      "japanese_name": "家政学、生活科学",
+      "normalized_name": "家政学、生活科学",
+      "code": "A08030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A08030&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "社会学与社会福祉"
+    },
+    "1100": {
+      "category_id": 1100,
+      "japanese_name": "ジェンダー",
+      "normalized_name": "ジェンダー",
+      "code": "A80030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A80030&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "社会学与社会福祉"
+    },
+    "1101": {
+      "category_id": 1101,
+      "japanese_name": "日本語教育",
+      "normalized_name": "日本語教育",
+      "code": "A02090",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A02090&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "教育学"
+    },
+    "1102": {
+      "category_id": 1102,
+      "japanese_name": "外国語教育",
+      "normalized_name": "外国語教育",
+      "code": "A02100",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A02100&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "教育学"
+    },
+    "1103": {
+      "category_id": 1103,
+      "japanese_name": "教育学",
+      "normalized_name": "教育学",
+      "code": "A09010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A09010&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "教育学"
+    },
+    "1104": {
+      "category_id": 1104,
+      "japanese_name": "教育社会学",
+      "normalized_name": "教育社会学",
+      "code": "A09020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A09020&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "教育学"
+    },
+    "1105": {
+      "category_id": 1105,
+      "japanese_name": "教科教育学、初等中等教育学",
+      "normalized_name": "教科教育学、初等中等教育学",
+      "code": "A09040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A09040&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "教育学"
+    },
+    "1106": {
+      "category_id": 1106,
+      "japanese_name": "高等教育学",
+      "normalized_name": "高等教育学",
+      "code": "A09050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A09050&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "教育学"
+    },
+    "1107": {
+      "category_id": 1107,
+      "japanese_name": "特別支援教育",
+      "normalized_name": "特別支援教育",
+      "code": "A09060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A09060&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "教育学"
+    },
+    "1108": {
+      "category_id": 1108,
+      "japanese_name": "教育工学",
+      "normalized_name": "教育工学",
+      "code": "A09070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A09070&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "教育学"
+    },
+    "1109": {
+      "category_id": 1109,
+      "japanese_name": "科学教育",
+      "normalized_name": "科学教育",
+      "code": "A09080",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A09080&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "教育学"
+    },
+    "1110": {
+      "category_id": 1110,
+      "japanese_name": "科学社会学、科学技術史",
+      "normalized_name": "科学社会学、科学技術史",
+      "code": "A01080",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A01080&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "心理学与其他社会科学"
+    },
+    "1111": {
+      "category_id": 1111,
+      "japanese_name": "社会心理学",
+      "normalized_name": "社会心理学",
+      "code": "A10010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A10010&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "心理学与其他社会科学"
+    },
+    "1112": {
+      "category_id": 1112,
+      "japanese_name": "教育心理学",
+      "normalized_name": "教育心理学",
+      "code": "A10020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A10020&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "心理学与其他社会科学"
+    },
+    "1113": {
+      "category_id": 1113,
+      "japanese_name": "臨床心理学",
+      "normalized_name": "臨床心理学",
+      "code": "A10030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A10030&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "心理学与其他社会科学"
+    },
+    "1114": {
+      "category_id": 1114,
+      "japanese_name": "実験心理学",
+      "normalized_name": "実験心理学",
+      "code": "A10040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A10040&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "心理学与其他社会科学"
+    },
+    "1115": {
+      "category_id": 1115,
+      "japanese_name": "地域研究",
+      "normalized_name": "地域研究",
+      "code": "A80010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A80010&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "心理学与其他社会科学"
+    },
+    "1116": {
+      "category_id": 1116,
+      "japanese_name": "観光学",
+      "normalized_name": "観光学",
+      "code": "A80020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A80020&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "心理学与其他社会科学"
+    },
+    "1117": {
+      "category_id": 1117,
+      "japanese_name": "図書館情報学、人文社会情報学",
+      "normalized_name": "図書館情報学、人文社会情報学",
+      "code": "A90020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A90020&institution_type=A04",
+      "major_category": "社会科学",
+      "major_code": "A900-2",
+      "middle_category": "心理学与其他社会科学"
+    },
+    "1118": {
+      "category_id": 1118,
+      "japanese_name": "哲学、倫理学",
+      "normalized_name": "哲学、倫理学",
+      "code": "A01010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A01010&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "哲学与思想"
+    },
+    "1119": {
+      "category_id": 1119,
+      "japanese_name": "中国哲学、印度哲学、仏教学",
+      "normalized_name": "中国哲学、印度哲学、仏教学",
+      "code": "A01020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A01020&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "哲学与思想"
+    },
+    "1120": {
+      "category_id": 1120,
+      "japanese_name": "宗教学",
+      "normalized_name": "宗教学",
+      "code": "A01030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A01030&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "哲学与思想"
+    },
+    "1121": {
+      "category_id": 1121,
+      "japanese_name": "思想史",
+      "normalized_name": "思想史",
+      "code": "A01040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A01040&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "哲学与思想"
+    },
+    "1122": {
+      "category_id": 1122,
+      "japanese_name": "国際関係論",
+      "normalized_name": "国際関係論",
+      "code": "A06020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A06020&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "哲学与思想"
+    },
+    "1123": {
+      "category_id": 1123,
+      "japanese_name": "美学、芸術論",
+      "normalized_name": "美学、芸術論",
+      "code": "A01050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A01050&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "艺术与美学"
+    },
+    "1124": {
+      "category_id": 1124,
+      "japanese_name": "美術史",
+      "normalized_name": "美術史",
+      "code": "A01060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A01060&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "艺术与美学"
+    },
+    "1125": {
+      "category_id": 1125,
+      "japanese_name": "芸術実践論",
+      "normalized_name": "芸術実践論",
+      "code": "A01070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A01070&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "艺术与美学"
+    },
+    "1126": {
+      "category_id": 1126,
+      "japanese_name": "日本文学",
+      "normalized_name": "日本文学",
+      "code": "A02010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A02010&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "文学与语言"
+    },
+    "1127": {
+      "category_id": 1127,
+      "japanese_name": "中国文学",
+      "normalized_name": "中国文学",
+      "code": "A02020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A02020&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "文学与语言"
+    },
+    "1128": {
+      "category_id": 1128,
+      "japanese_name": "英文学、英語圏文学",
+      "normalized_name": "英文学、英語圏文学",
+      "code": "A02030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A02030&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "文学与语言"
+    },
+    "1129": {
+      "category_id": 1129,
+      "japanese_name": "ヨーロッパ文学",
+      "normalized_name": "ヨーロッパ文学",
+      "code": "A02040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A02040&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "文学与语言"
+    },
+    "1130": {
+      "category_id": 1130,
+      "japanese_name": "文学一般",
+      "normalized_name": "文学一般",
+      "code": "A02050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A02050&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "文学与语言"
+    },
+    "1131": {
+      "category_id": 1131,
+      "japanese_name": "言語学",
+      "normalized_name": "言語学",
+      "code": "A02060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A02060&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "文学与语言"
+    },
+    "1132": {
+      "category_id": 1132,
+      "japanese_name": "日本語学",
+      "normalized_name": "日本語学",
+      "code": "A02070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A02070&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "文学与语言"
+    },
+    "1133": {
+      "category_id": 1133,
+      "japanese_name": "英語学",
+      "normalized_name": "英語学",
+      "code": "A02080",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A02080&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "文学与语言"
+    },
+    "1134": {
+      "category_id": 1134,
+      "japanese_name": "史学一般",
+      "normalized_name": "史学一般",
+      "code": "A03010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A03010&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "历史与文化"
+    },
+    "1135": {
+      "category_id": 1135,
+      "japanese_name": "日本史",
+      "normalized_name": "日本史",
+      "code": "A03020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A03020&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "历史与文化"
+    },
+    "1136": {
+      "category_id": 1136,
+      "japanese_name": "アジア史、アフリカ史",
+      "normalized_name": "アジア史、アフリカ史",
+      "code": "A03030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A03030&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "历史与文化"
+    },
+    "1137": {
+      "category_id": 1137,
+      "japanese_name": "ヨーロッパ史、アメリカ史",
+      "normalized_name": "ヨーロッパ史、アメリカ史",
+      "code": "A03040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A03040&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "历史与文化"
+    },
+    "1138": {
+      "category_id": 1138,
+      "japanese_name": "考古学",
+      "normalized_name": "考古学",
+      "code": "A03050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A03050&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "历史与文化"
+    },
+    "1139": {
+      "category_id": 1139,
+      "japanese_name": "文化財科学",
+      "normalized_name": "文化財科学",
+      "code": "A03060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A03060&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "历史与文化"
+    },
+    "1140": {
+      "category_id": 1140,
+      "japanese_name": "博物館学",
+      "normalized_name": "博物館学",
+      "code": "A03070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A03070&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "历史与文化"
+    },
+    "1141": {
+      "category_id": 1141,
+      "japanese_name": "文化人類学、民俗学",
+      "normalized_name": "文化人類学、民俗学",
+      "code": "A04030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A04030&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "历史与文化"
+    },
+    "1142": {
+      "category_id": 1142,
+      "japanese_name": "地理学",
+      "normalized_name": "地理学",
+      "code": "A04010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A04010&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "地理与其他人文"
+    },
+    "1143": {
+      "category_id": 1143,
+      "japanese_name": "人文地理学",
+      "normalized_name": "人文地理学",
+      "code": "A04020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A04020&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "地理与其他人文"
+    },
+    "1144": {
+      "category_id": 1144,
+      "japanese_name": "子ども学、保育学",
+      "normalized_name": "子ども学、保育学",
+      "code": "A09030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A09030&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "地理与其他人文"
+    },
+    "1145": {
+      "category_id": 1145,
+      "japanese_name": "デザイン学",
+      "normalized_name": "デザイン学",
+      "code": "A90010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A90010&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "地理与其他人文"
+    },
+    "1146": {
+      "category_id": 1146,
+      "japanese_name": "認知科学",
+      "normalized_name": "認知科学",
+      "code": "A90030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A900&research_areas%5Bitem_number%5D=A90030&institution_type=A04",
+      "major_category": "人文学科",
+      "major_code": "A900-1",
+      "middle_category": "地理与其他人文"
+    },
+    "1147": {
+      "category_id": 1147,
+      "japanese_name": "代数学",
+      "normalized_name": "代数学",
+      "code": "A11010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A11010&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "数学"
+    },
+    "1148": {
+      "category_id": 1148,
+      "japanese_name": "幾何学",
+      "normalized_name": "幾何学",
+      "code": "A11020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A11020&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "数学"
+    },
+    "1149": {
+      "category_id": 1149,
+      "japanese_name": "基礎解析学",
+      "normalized_name": "基礎解析学",
+      "code": "A12010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A12010&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "数学"
+    },
+    "1150": {
+      "category_id": 1150,
+      "japanese_name": "数理解析学",
+      "normalized_name": "数理解析学",
+      "code": "A12020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A12020&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "数学"
+    },
+    "1151": {
+      "category_id": 1151,
+      "japanese_name": "数学基礎",
+      "normalized_name": "数学基礎",
+      "code": "A12030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A12030&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "数学"
+    },
+    "1152": {
+      "category_id": 1152,
+      "japanese_name": "応用数学、統計数学",
+      "normalized_name": "応用数学、統計数学",
+      "code": "A12040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A12040&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "数学"
+    },
+    "1153": {
+      "category_id": 1153,
+      "japanese_name": "数理物理、物性基礎",
+      "normalized_name": "数理物理、物性基礎",
+      "code": "A13010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A13010&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "物理学"
+    },
+    "1154": {
+      "category_id": 1154,
+      "japanese_name": "半導体、光物性、原子物理",
+      "normalized_name": "半導体、光物性、原子物理",
+      "code": "A13020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A13020&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "物理学"
+    },
+    "1155": {
+      "category_id": 1155,
+      "japanese_name": "磁性、超伝導、強相関系",
+      "normalized_name": "磁性、超伝導、強相関系",
+      "code": "A13030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A13030&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "物理学"
+    },
+    "1156": {
+      "category_id": 1156,
+      "japanese_name": "生物物理、化学物理、ソフトマターの物理",
+      "normalized_name": "生物物理、化学物理、ソフトマターの物理",
+      "code": "A13040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A13040&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "物理学"
+    },
+    "1157": {
+      "category_id": 1157,
+      "japanese_name": "素粒子、原子核、宇宙線、宇宙物理に関する理論",
+      "normalized_name": "素粒子、原子核、宇宙線、宇宙物理に関する理論",
+      "code": "A15010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A15010&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "物理学"
+    },
+    "1158": {
+      "category_id": 1158,
+      "japanese_name": "素粒子、原子核、宇宙線、宇宙物理に関する実験",
+      "normalized_name": "素粒子、原子核、宇宙線、宇宙物理に関する実験",
+      "code": "A15020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A15020&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "物理学"
+    },
+    "1159": {
+      "category_id": 1159,
+      "japanese_name": "天文学",
+      "normalized_name": "天文学",
+      "code": "A16010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A16010&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "天文学"
+    },
+    "1160": {
+      "category_id": 1160,
+      "japanese_name": "宇宙惑星科学",
+      "normalized_name": "宇宙惑星科学",
+      "code": "A17010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A17010&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "地球科学"
+    },
+    "1161": {
+      "category_id": 1161,
+      "japanese_name": "大気水圏科学",
+      "normalized_name": "大気水圏科学",
+      "code": "A17020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A17020&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "地球科学"
+    },
+    "1162": {
+      "category_id": 1162,
+      "japanese_name": "地球人間圏科学",
+      "normalized_name": "地球人間圏科学",
+      "code": "A17030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A17030&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "地球科学"
+    },
+    "1163": {
+      "category_id": 1163,
+      "japanese_name": "固体地球科学",
+      "normalized_name": "固体地球科学",
+      "code": "A17040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A17040&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "地球科学"
+    },
+    "1164": {
+      "category_id": 1164,
+      "japanese_name": "地球生命科学",
+      "normalized_name": "地球生命科学",
+      "code": "A17050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A1000&research_areas%5Bitem_number%5D=A17050&institution_type=A04",
+      "major_category": "自然科学一般",
+      "major_code": "A1000",
+      "middle_category": "地球科学"
+    },
+    "1165": {
+      "category_id": 1165,
+      "japanese_name": "機械力学、メカトロニクス",
+      "normalized_name": "機械力学、メカトロニクス",
+      "code": "A20010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A20010&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "智能机械系统"
+    },
+    "1166": {
+      "category_id": 1166,
+      "japanese_name": "ロボティクス、知能機械システム",
+      "normalized_name": "ロボティクス、知能機械システム",
+      "code": "A20020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A20020&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "智能机械系统"
+    },
+    "1167": {
+      "category_id": 1167,
+      "japanese_name": "情報学基礎論",
+      "normalized_name": "情報学基礎論",
+      "code": "A60010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A60010&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "计算机基础与系统"
+    },
+    "1168": {
+      "category_id": 1168,
+      "japanese_name": "数理情報学",
+      "normalized_name": "数理情報学",
+      "code": "A60020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A60020&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "计算机基础与系统"
+    },
+    "1169": {
+      "category_id": 1169,
+      "japanese_name": "統計科学",
+      "normalized_name": "統計科学",
+      "code": "A60030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A60030&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "计算机基础与系统"
+    },
+    "1170": {
+      "category_id": 1170,
+      "japanese_name": "計算機システム",
+      "normalized_name": "計算機システム",
+      "code": "A60040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A60040&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "计算机基础与系统"
+    },
+    "1171": {
+      "category_id": 1171,
+      "japanese_name": "ソフトウェア",
+      "normalized_name": "ソフトウェア",
+      "code": "A60050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A60050&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "计算机基础与系统"
+    },
+    "1172": {
+      "category_id": 1172,
+      "japanese_name": "情報ネットワーク",
+      "normalized_name": "情報ネットワーク",
+      "code": "A60060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A60060&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "计算机基础与系统"
+    },
+    "1173": {
+      "category_id": 1173,
+      "japanese_name": "情報セキュリティ",
+      "normalized_name": "情報セキュリティ",
+      "code": "A60070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A60070&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "计算机基础与系统"
+    },
+    "1174": {
+      "category_id": 1174,
+      "japanese_name": "データベース",
+      "normalized_name": "データベース",
+      "code": "A60080",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A60080&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "计算机基础与系统"
+    },
+    "1175": {
+      "category_id": 1175,
+      "japanese_name": "高性能計算",
+      "normalized_name": "高性能計算",
+      "code": "A60090",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A60090&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "计算机基础与系统"
+    },
+    "1176": {
+      "category_id": 1176,
+      "japanese_name": "計算科学",
+      "normalized_name": "計算科学",
+      "code": "A60100",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A60100&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "计算机基础与系统"
+    },
+    "1177": {
+      "category_id": 1177,
+      "japanese_name": "知覚情報処理",
+      "normalized_name": "知覚情報処理",
+      "code": "A61010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A61010&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "人工智能与智能信息"
+    },
+    "1178": {
+      "category_id": 1178,
+      "japanese_name": "ヒューマンインタフェース、インタラクション",
+      "normalized_name": "ヒューマンインタフェース、インタラクション",
+      "code": "A61020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A61020&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "人工智能与智能信息"
+    },
+    "1179": {
+      "category_id": 1179,
+      "japanese_name": "知能情報学",
+      "normalized_name": "知能情報学",
+      "code": "A61030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A61030&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "人工智能与智能信息"
+    },
+    "1180": {
+      "category_id": 1180,
+      "japanese_name": "ソフトコンピューティング",
+      "normalized_name": "ソフトコンピューティング",
+      "code": "A61040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A61040&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "人工智能与智能信息"
+    },
+    "1181": {
+      "category_id": 1181,
+      "japanese_name": "知能ロボティクス",
+      "normalized_name": "知能ロボティクス",
+      "code": "A61050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A61050&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "人工智能与智能信息"
+    },
+    "1182": {
+      "category_id": 1182,
+      "japanese_name": "感性情報学",
+      "normalized_name": "感性情報学",
+      "code": "A61060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A61060&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "人工智能与智能信息"
+    },
+    "1183": {
+      "category_id": 1183,
+      "japanese_name": "生命、健康、医療情報学",
+      "normalized_name": "生命、健康、医療情報学",
+      "code": "A62010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A62010&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "应用信息学"
+    },
+    "1184": {
+      "category_id": 1184,
+      "japanese_name": "ウェブ情報学、サービス情報学",
+      "normalized_name": "ウェブ情報学、サービス情報学",
+      "code": "A62020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A62020&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "应用信息学"
+    },
+    "1185": {
+      "category_id": 1185,
+      "japanese_name": "学習支援システム",
+      "normalized_name": "学習支援システム",
+      "code": "A62030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A62030&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "应用信息学"
+    },
+    "1186": {
+      "category_id": 1186,
+      "japanese_name": "エンタテインメント、ゲーム情報学",
+      "normalized_name": "エンタテインメント、ゲーム情報学",
+      "code": "A62040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A289&research_areas%5Bitem_number%5D=A62040&institution_type=A04",
+      "major_category": "情報通信",
+      "major_code": "A289",
+      "middle_category": "应用信息学"
+    },
+    "1187": {
+      "category_id": 1187,
+      "japanese_name": "植物栄養学、土壌学",
+      "normalized_name": "植物栄養学、土壌学",
+      "code": "A38010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A38010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "基础医学"
+    },
+    "1188": {
+      "category_id": 1188,
+      "japanese_name": "医化学",
+      "normalized_name": "医化学",
+      "code": "A48040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A48040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "基础医学"
+    },
+    "1189": {
+      "category_id": 1189,
+      "japanese_name": "病態医化学",
+      "normalized_name": "病態医化学",
+      "code": "A49010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A49010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "基础医学"
+    },
+    "1190": {
+      "category_id": 1190,
+      "japanese_name": "人体病理学",
+      "normalized_name": "人体病理学",
+      "code": "A49020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A49020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "基础医学"
+    },
+    "1191": {
+      "category_id": 1191,
+      "japanese_name": "実験病理学",
+      "normalized_name": "実験病理学",
+      "code": "A49030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A49030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "基础医学"
+    },
+    "1192": {
+      "category_id": 1192,
+      "japanese_name": "解剖学",
+      "normalized_name": "解剖学",
+      "code": "A48010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A48010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "基础医学"
+    },
+    "1193": {
+      "category_id": 1193,
+      "japanese_name": "寄生虫学",
+      "normalized_name": "寄生虫学",
+      "code": "A49040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A49040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "基础医学"
+    },
+    "1194": {
+      "category_id": 1194,
+      "japanese_name": "細菌学",
+      "normalized_name": "細菌学",
+      "code": "A49050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A49050&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "基础医学"
+    },
+    "1195": {
+      "category_id": 1195,
+      "japanese_name": "ウイルス学",
+      "normalized_name": "ウイルス学",
+      "code": "A49060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A49060&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "基础医学"
+    },
+    "1196": {
+      "category_id": 1196,
+      "japanese_name": "免疫学",
+      "normalized_name": "免疫学",
+      "code": "A49070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A49070&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "基础医学"
+    },
+    "1197": {
+      "category_id": 1197,
+      "japanese_name": "薬系化学、創薬科学",
+      "normalized_name": "薬系化学、創薬科学",
+      "code": "A47010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A47010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "药学"
+    },
+    "1198": {
+      "category_id": 1198,
+      "japanese_name": "薬系分析、物理化学",
+      "normalized_name": "薬系分析、物理化学",
+      "code": "A47020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A47020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "药学"
+    },
+    "1199": {
+      "category_id": 1199,
+      "japanese_name": "薬系衛生、生物化学",
+      "normalized_name": "薬系衛生、生物化学",
+      "code": "A47030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A47030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "药学"
+    },
+    "1200": {
+      "category_id": 1200,
+      "japanese_name": "薬理学",
+      "normalized_name": "薬理学",
+      "code": "A47040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A47040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "药学"
+    },
+    "1201": {
+      "category_id": 1201,
+      "japanese_name": "環境、天然医薬資源学",
+      "normalized_name": "環境、天然医薬資源学",
+      "code": "A47050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A47050&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "药学"
+    },
+    "1202": {
+      "category_id": 1202,
+      "japanese_name": "医療薬学",
+      "normalized_name": "医療薬学",
+      "code": "A47060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A47060&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "药学"
+    },
+    "1203": {
+      "category_id": 1203,
+      "japanese_name": "病態神経科学",
+      "normalized_name": "病態神経科学",
+      "code": "A51030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A51030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "脑科学与神经医学"
+    },
+    "1204": {
+      "category_id": 1204,
+      "japanese_name": "神経内科学",
+      "normalized_name": "神経内科学",
+      "code": "A52020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A52020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "脑科学与神经医学"
+    },
+    "1205": {
+      "category_id": 1205,
+      "japanese_name": "脳神経外科学",
+      "normalized_name": "脳神経外科学",
+      "code": "A56010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A56010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "脑科学与神经医学"
+    },
+    "1206": {
+      "category_id": 1206,
+      "japanese_name": "基盤脳科学",
+      "normalized_name": "基盤脳科学",
+      "code": "A51010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A51010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "脑科学与神经医学"
+    },
+    "1207": {
+      "category_id": 1207,
+      "japanese_name": "認知脳科学",
+      "normalized_name": "認知脳科学",
+      "code": "A51020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A51020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "脑科学与神经医学"
+    },
+    "1208": {
+      "category_id": 1208,
+      "japanese_name": "精神神経科学",
+      "normalized_name": "精神神経科学",
+      "code": "A52030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A52030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "脑科学与神经医学"
+    },
+    "1209": {
+      "category_id": 1209,
+      "japanese_name": "腫瘍生物学",
+      "normalized_name": "腫瘍生物学",
+      "code": "A50010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A50010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "肿瘤学"
+    },
+    "1210": {
+      "category_id": 1210,
+      "japanese_name": "腫瘍診断、治療学",
+      "normalized_name": "腫瘍診断、治療学",
+      "code": "A50020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A50020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "肿瘤学"
+    },
+    "1211": {
+      "category_id": 1211,
+      "japanese_name": "内科学一般",
+      "normalized_name": "内科学一般",
+      "code": "A52010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A52010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1212": {
+      "category_id": 1212,
+      "japanese_name": "放射線科学",
+      "normalized_name": "放射線科学",
+      "code": "A52040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A52040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1213": {
+      "category_id": 1213,
+      "japanese_name": "胎児医学、小児成育学",
+      "normalized_name": "胎児医学、小児成育学",
+      "code": "A52050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A52050&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1214": {
+      "category_id": 1214,
+      "japanese_name": "消化器内科学",
+      "normalized_name": "消化器内科学",
+      "code": "A53010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A53010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1215": {
+      "category_id": 1215,
+      "japanese_name": "循環器内科学",
+      "normalized_name": "循環器内科学",
+      "code": "A53020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A53020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1216": {
+      "category_id": 1216,
+      "japanese_name": "呼吸器内科学",
+      "normalized_name": "呼吸器内科学",
+      "code": "A53030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A53030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1217": {
+      "category_id": 1217,
+      "japanese_name": "腎臓内科学",
+      "normalized_name": "腎臓内科学",
+      "code": "A53040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A53040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1218": {
+      "category_id": 1218,
+      "japanese_name": "血液、腫瘍内科学",
+      "normalized_name": "血液、腫瘍内科学",
+      "code": "A54010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A54010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1219": {
+      "category_id": 1219,
+      "japanese_name": "膠原病、アレルギー内科学",
+      "normalized_name": "膠原病、アレルギー内科学",
+      "code": "A54020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A54020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1220": {
+      "category_id": 1220,
+      "japanese_name": "感染症内科学",
+      "normalized_name": "感染症内科学",
+      "code": "A54030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A54030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1221": {
+      "category_id": 1221,
+      "japanese_name": "皮膚科学",
+      "normalized_name": "皮膚科学",
+      "code": "A53050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A53050&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1222": {
+      "category_id": 1222,
+      "japanese_name": "代謝、内分泌学",
+      "normalized_name": "代謝、内分泌学",
+      "code": "A54040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A54040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "内科学"
+    },
+    "1223": {
+      "category_id": 1223,
+      "japanese_name": "外科学一般、小児外科学",
+      "normalized_name": "外科学一般、小児外科学",
+      "code": "A55010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A55010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1224": {
+      "category_id": 1224,
+      "japanese_name": "消化器外科学",
+      "normalized_name": "消化器外科学",
+      "code": "A55020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A55020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1225": {
+      "category_id": 1225,
+      "japanese_name": "心臓血管外科学",
+      "normalized_name": "心臓血管外科学",
+      "code": "A55030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A55030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1226": {
+      "category_id": 1226,
+      "japanese_name": "呼吸器外科学",
+      "normalized_name": "呼吸器外科学",
+      "code": "A55040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A55040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1227": {
+      "category_id": 1227,
+      "japanese_name": "麻酔科学",
+      "normalized_name": "麻酔科学",
+      "code": "A55050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A55050&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1228": {
+      "category_id": 1228,
+      "japanese_name": "救急医学",
+      "normalized_name": "救急医学",
+      "code": "A55060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A55060&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1229": {
+      "category_id": 1229,
+      "japanese_name": "整形外科学",
+      "normalized_name": "整形外科学",
+      "code": "A56020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A56020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1230": {
+      "category_id": 1230,
+      "japanese_name": "泌尿器科学",
+      "normalized_name": "泌尿器科学",
+      "code": "A56030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A56030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1231": {
+      "category_id": 1231,
+      "japanese_name": "産婦人科学",
+      "normalized_name": "産婦人科学",
+      "code": "A56040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A56040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1232": {
+      "category_id": 1232,
+      "japanese_name": "耳鼻咽喉科学",
+      "normalized_name": "耳鼻咽喉科学",
+      "code": "A56050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A56050&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1233": {
+      "category_id": 1233,
+      "japanese_name": "眼科学",
+      "normalized_name": "眼科学",
+      "code": "A56060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A56060&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1234": {
+      "category_id": 1234,
+      "japanese_name": "形成外科学",
+      "normalized_name": "形成外科学",
+      "code": "A56070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A56070&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "外科学与临床专科"
+    },
+    "1235": {
+      "category_id": 1235,
+      "japanese_name": "獣医学",
+      "normalized_name": "獣医学",
+      "code": "A42020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A42020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1236": {
+      "category_id": 1236,
+      "japanese_name": "常態系口腔科学",
+      "normalized_name": "常態系口腔科学",
+      "code": "A57010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A57010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1237": {
+      "category_id": 1237,
+      "japanese_name": "病態系口腔科学",
+      "normalized_name": "病態系口腔科学",
+      "code": "A57020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A57020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1238": {
+      "category_id": 1238,
+      "japanese_name": "保存治療系歯学",
+      "normalized_name": "保存治療系歯学",
+      "code": "A57030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A57030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1239": {
+      "category_id": 1239,
+      "japanese_name": "口腔再生医学、歯科医用工学",
+      "normalized_name": "口腔再生医学、歯科医用工学",
+      "code": "A57040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A57040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1240": {
+      "category_id": 1240,
+      "japanese_name": "補綴系歯学",
+      "normalized_name": "補綴系歯学",
+      "code": "A57050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A57050&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1241": {
+      "category_id": 1241,
+      "japanese_name": "外科系歯学",
+      "normalized_name": "外科系歯学",
+      "code": "A57060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A57060&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1242": {
+      "category_id": 1242,
+      "japanese_name": "成長、発育系歯学",
+      "normalized_name": "成長、発育系歯学",
+      "code": "A57070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A57070&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1243": {
+      "category_id": 1243,
+      "japanese_name": "社会系歯学",
+      "normalized_name": "社会系歯学",
+      "code": "A57080",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A57080&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1244": {
+      "category_id": 1244,
+      "japanese_name": "医療管理学、医療系社会学",
+      "normalized_name": "医療管理学、医療系社会学",
+      "code": "A58010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A58010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1245": {
+      "category_id": 1245,
+      "japanese_name": "衛生学、公衆衛生学分野:実験系を含む",
+      "normalized_name": "衛生学、公衆衛生学分野：実験系を含む",
+      "code": "A58020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A58020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1246": {
+      "category_id": 1246,
+      "japanese_name": "衛生学、公衆衛生学分野:実験系を含まない",
+      "normalized_name": "衛生学、公衆衛生学分野：実験系を含まない",
+      "code": "A58030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A58030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1247": {
+      "category_id": 1247,
+      "japanese_name": "法医学",
+      "normalized_name": "法医学",
+      "code": "A58040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A58040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1248": {
+      "category_id": 1248,
+      "japanese_name": "基礎看護学",
+      "normalized_name": "基礎看護学",
+      "code": "A58050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A58050&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1249": {
+      "category_id": 1249,
+      "japanese_name": "臨床看護学",
+      "normalized_name": "臨床看護学",
+      "code": "A58060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A58060&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1250": {
+      "category_id": 1250,
+      "japanese_name": "生涯発達看護学",
+      "normalized_name": "生涯発達看護学",
+      "code": "A58070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A58070&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1251": {
+      "category_id": 1251,
+      "japanese_name": "高齢者看護学、地域看護学",
+      "normalized_name": "高齢者看護学、地域看護学",
+      "code": "A58080",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A58080&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1252": {
+      "category_id": 1252,
+      "japanese_name": "リハビリテーション科学",
+      "normalized_name": "リハビリテーション科学",
+      "code": "A59010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A59010&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1253": {
+      "category_id": 1253,
+      "japanese_name": "スポーツ科学",
+      "normalized_name": "スポーツ科学",
+      "code": "A59020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A59020&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1254": {
+      "category_id": 1254,
+      "japanese_name": "体育、身体教育学",
+      "normalized_name": "体育、身体教育学",
+      "code": "A59030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A59030&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1255": {
+      "category_id": 1255,
+      "japanese_name": "栄養学、健康科学",
+      "normalized_name": "栄養学、健康科学",
+      "code": "A59040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A59040&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1256": {
+      "category_id": 1256,
+      "japanese_name": "生体医工学",
+      "normalized_name": "生体医工学",
+      "code": "A90110",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A90110&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1257": {
+      "category_id": 1257,
+      "japanese_name": "医用システム",
+      "normalized_name": "医用システム",
+      "code": "A90130",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A90130&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1258": {
+      "category_id": 1258,
+      "japanese_name": "医療技術評価学",
+      "normalized_name": "医療技術評価学",
+      "code": "A90140",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A90140&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1259": {
+      "category_id": 1259,
+      "japanese_name": "医療福祉工学",
+      "normalized_name": "医療福祉工学",
+      "code": "A90150",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A90150&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1260": {
+      "category_id": 1260,
+      "japanese_name": "生体材料学",
+      "normalized_name": "生体材料学",
+      "code": "A90120",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A90120&institution_type=A04",
+      "major_category": "医学与健康科学",
+      "major_code": "A189-2",
+      "middle_category": "口腔医学、护理与健康科学"
+    },
+    "1261": {
+      "category_id": 1261,
+      "japanese_name": "応用微生物学",
+      "normalized_name": "応用微生物学",
+      "code": "A38020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A38020&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "应用生物学"
+    },
+    "1262": {
+      "category_id": 1262,
+      "japanese_name": "応用生物化学",
+      "normalized_name": "応用生物化学",
+      "code": "A38030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A38030&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "应用生物学"
+    },
+    "1263": {
+      "category_id": 1263,
+      "japanese_name": "生物有機化学",
+      "normalized_name": "生物有機化学",
+      "code": "A38040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A38040&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "应用生物学"
+    },
+    "1264": {
+      "category_id": 1264,
+      "japanese_name": "食品科学",
+      "normalized_name": "食品科学",
+      "code": "A38050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A38050&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "应用生物学"
+    },
+    "1265": {
+      "category_id": 1265,
+      "japanese_name": "応用分子細胞生物学",
+      "normalized_name": "応用分子細胞生物学",
+      "code": "A38060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A38060&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "应用生物学"
+    },
+    "1266": {
+      "category_id": 1266,
+      "japanese_name": "森林科学",
+      "normalized_name": "森林科学",
+      "code": "A40010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A40010&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "森林与水圈科学"
+    },
+    "1267": {
+      "category_id": 1267,
+      "japanese_name": "木質科学",
+      "normalized_name": "木質科学",
+      "code": "A40020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A40020&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "森林与水圈科学"
+    },
+    "1268": {
+      "category_id": 1268,
+      "japanese_name": "水圏生産科学",
+      "normalized_name": "水圏生産科学",
+      "code": "A40030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A40030&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "森林与水圈科学"
+    },
+    "1269": {
+      "category_id": 1269,
+      "japanese_name": "水圏生命科学",
+      "normalized_name": "水圏生命科学",
+      "code": "A40040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A40040&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "森林与水圈科学"
+    },
+    "1270": {
+      "category_id": 1270,
+      "japanese_name": "動物生産科学",
+      "normalized_name": "動物生産科学",
+      "code": "A42010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A42010&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "动物科学"
+    },
+    "1271": {
+      "category_id": 1271,
+      "japanese_name": "動物生命科学",
+      "normalized_name": "動物生命科学",
+      "code": "A42030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A42030&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "动物科学"
+    },
+    "1272": {
+      "category_id": 1272,
+      "japanese_name": "実験動物学",
+      "normalized_name": "実験動物学",
+      "code": "A42040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A42040&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "动物科学"
+    },
+    "1273": {
+      "category_id": 1273,
+      "japanese_name": "分子生物学",
+      "normalized_name": "分子生物学",
+      "code": "A43010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A43010&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "分子与细胞生物学"
+    },
+    "1274": {
+      "category_id": 1274,
+      "japanese_name": "構造生物化学",
+      "normalized_name": "構造生物化学",
+      "code": "A43020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A43020&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "分子与细胞生物学"
+    },
+    "1275": {
+      "category_id": 1275,
+      "japanese_name": "機能生物化学",
+      "normalized_name": "機能生物化学",
+      "code": "A43030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A43030&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "分子与细胞生物学"
+    },
+    "1276": {
+      "category_id": 1276,
+      "japanese_name": "生物物理学",
+      "normalized_name": "生物物理学",
+      "code": "A43040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A43040&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "分子与细胞生物学"
+    },
+    "1277": {
+      "category_id": 1277,
+      "japanese_name": "ゲノム生物学",
+      "normalized_name": "ゲノム生物学",
+      "code": "A43050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A43050&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "分子与细胞生物学"
+    },
+    "1278": {
+      "category_id": 1278,
+      "japanese_name": "システムゲノム科学",
+      "normalized_name": "システムゲノム科学",
+      "code": "A43060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A43060&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "分子与细胞生物学"
+    },
+    "1279": {
+      "category_id": 1279,
+      "japanese_name": "細胞生物学",
+      "normalized_name": "細胞生物学",
+      "code": "A44010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A44010&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "分子与细胞生物学"
+    },
+    "1280": {
+      "category_id": 1280,
+      "japanese_name": "発生生物学",
+      "normalized_name": "発生生物学",
+      "code": "A44020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A44020&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "分子与细胞生物学"
+    },
+    "1281": {
+      "category_id": 1281,
+      "japanese_name": "植物分子、生理科学",
+      "normalized_name": "植物分子、生理科学",
+      "code": "A44030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A44030&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "生理与形态学"
+    },
+    "1282": {
+      "category_id": 1282,
+      "japanese_name": "形態、構造",
+      "normalized_name": "形態、構造",
+      "code": "A44040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A44040&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "生理与形态学"
+    },
+    "1283": {
+      "category_id": 1283,
+      "japanese_name": "動物生理化学、生理学、行動学",
+      "normalized_name": "動物生理化学、生理学、行動学",
+      "code": "A44050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A44050&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "生理与形态学"
+    },
+    "1284": {
+      "category_id": 1284,
+      "japanese_name": "生理学",
+      "normalized_name": "生理学",
+      "code": "A48020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A48020&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "生理与形态学"
+    },
+    "1285": {
+      "category_id": 1285,
+      "japanese_name": "遺伝学",
+      "normalized_name": "遺伝学",
+      "code": "A45010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A45010&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "进化、生态与神经科学"
+    },
+    "1286": {
+      "category_id": 1286,
+      "japanese_name": "進化生物学",
+      "normalized_name": "進化生物学",
+      "code": "A45020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A45020&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "进化、生态与神经科学"
+    },
+    "1287": {
+      "category_id": 1287,
+      "japanese_name": "多様性生物学、分類学",
+      "normalized_name": "多様性生物学、分類学",
+      "code": "A45030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A45030&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "进化、生态与神经科学"
+    },
+    "1288": {
+      "category_id": 1288,
+      "japanese_name": "生態学、環境学",
+      "normalized_name": "生態学、環境学",
+      "code": "A45040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A45040&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "进化、生态与神经科学"
+    },
+    "1289": {
+      "category_id": 1289,
+      "japanese_name": "自然人類学",
+      "normalized_name": "自然人類学",
+      "code": "A45050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A45050&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "进化、生态与神经科学"
+    },
+    "1290": {
+      "category_id": 1290,
+      "japanese_name": "応用人類学",
+      "normalized_name": "応用人類学",
+      "code": "A45060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A45060&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "进化、生态与神经科学"
+    },
+    "1291": {
+      "category_id": 1291,
+      "japanese_name": "神経科学一般",
+      "normalized_name": "神経科学一般",
+      "code": "A46010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A46010&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "进化、生态与神经科学"
+    },
+    "1292": {
+      "category_id": 1292,
+      "japanese_name": "神経形態学",
+      "normalized_name": "神経形態学",
+      "code": "A46020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A46020&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "进化、生态与神经科学"
+    },
+    "1293": {
+      "category_id": 1293,
+      "japanese_name": "神経機能学",
+      "normalized_name": "神経機能学",
+      "code": "A46030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A189&research_areas%5Bitem_number%5D=A46030&institution_type=A04",
+      "major_category": "基础生命科学",
+      "major_code": "A189-1",
+      "middle_category": "进化、生态与神经科学"
+    },
+    "1294": {
+      "category_id": 1294,
+      "japanese_name": "金属材料物性",
+      "normalized_name": "金属材料物性",
+      "code": "A26010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A26010&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "金属与无机材料"
+    },
+    "1295": {
+      "category_id": 1295,
+      "japanese_name": "無機材料、物性",
+      "normalized_name": "無機材料、物性",
+      "code": "A26020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A26020&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "金属与无机材料"
+    },
+    "1296": {
+      "category_id": 1296,
+      "japanese_name": "複合材料、界面",
+      "normalized_name": "複合材料、界面",
+      "code": "A26030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A26030&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "金属与无机材料"
+    },
+    "1297": {
+      "category_id": 1297,
+      "japanese_name": "構造材料、機能材料",
+      "normalized_name": "構造材料、機能材料",
+      "code": "A26040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A26040&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "金属与无机材料"
+    },
+    "1298": {
+      "category_id": 1298,
+      "japanese_name": "材料加工、組織制御",
+      "normalized_name": "材料加工、組織制御",
+      "code": "A26050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A26050&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "金属与无机材料"
+    },
+    "1299": {
+      "category_id": 1299,
+      "japanese_name": "金属生産、資源生産",
+      "normalized_name": "金属生産、資源生産",
+      "code": "A26060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A26060&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "金属与无机材料"
+    },
+    "1300": {
+      "category_id": 1300,
+      "japanese_name": "ナノ構造化学",
+      "normalized_name": "ナノ構造化学",
+      "code": "A28010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A28010&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "纳米科学与技术"
+    },
+    "1301": {
+      "category_id": 1301,
+      "japanese_name": "ナノ構造物理",
+      "normalized_name": "ナノ構造物理",
+      "code": "A28020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A28020&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "纳米科学与技术"
+    },
+    "1302": {
+      "category_id": 1302,
+      "japanese_name": "ナノ材料科学",
+      "normalized_name": "ナノ材料科学",
+      "code": "A28030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A28030&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "纳米科学与技术"
+    },
+    "1303": {
+      "category_id": 1303,
+      "japanese_name": "ナノバイオサイエンス",
+      "normalized_name": "ナノバイオサイエンス",
+      "code": "A28040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A28040&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "纳米科学与技术"
+    },
+    "1304": {
+      "category_id": 1304,
+      "japanese_name": "ナノマイクロシステム",
+      "normalized_name": "ナノマイクロシステム",
+      "code": "A28050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A28050&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "纳米科学与技术"
+    },
+    "1305": {
+      "category_id": 1305,
+      "japanese_name": "応用物性",
+      "normalized_name": "応用物性",
+      "code": "A29010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A29010&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "应用物理"
+    },
+    "1306": {
+      "category_id": 1306,
+      "japanese_name": "薄膜、表面界面物性",
+      "normalized_name": "薄膜、表面界面物性",
+      "code": "A29020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A29020&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "应用物理"
+    },
+    "1307": {
+      "category_id": 1307,
+      "japanese_name": "応用物理一般",
+      "normalized_name": "応用物理一般",
+      "code": "A29030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A29030&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "应用物理"
+    },
+    "1308": {
+      "category_id": 1308,
+      "japanese_name": "結晶工学",
+      "normalized_name": "結晶工学",
+      "code": "A30010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A30010&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "应用物理"
+    },
+    "1309": {
+      "category_id": 1309,
+      "japanese_name": "光工学、光量子科学",
+      "normalized_name": "光工学、光量子科学",
+      "code": "A30020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A30020&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "应用物理"
+    },
+    "1310": {
+      "category_id": 1310,
+      "japanese_name": "基礎物理化学",
+      "normalized_name": "基礎物理化学",
+      "code": "A32010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A32010&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "物理化学"
+    },
+    "1311": {
+      "category_id": 1311,
+      "japanese_name": "機能物性化学",
+      "normalized_name": "機能物性化学",
+      "code": "A32020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A32020&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "物理化学"
+    },
+    "1312": {
+      "category_id": 1312,
+      "japanese_name": "構造有機化学、物理有機化学",
+      "normalized_name": "構造有機化学、物理有機化学",
+      "code": "A33010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A33010&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1313": {
+      "category_id": 1313,
+      "japanese_name": "有機合成化学",
+      "normalized_name": "有機合成化学",
+      "code": "A33020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A33020&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1314": {
+      "category_id": 1314,
+      "japanese_name": "無機・錯体化学",
+      "normalized_name": "無機・錯体化学",
+      "code": "A34010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A34010&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1315": {
+      "category_id": 1315,
+      "japanese_name": "分析化学",
+      "normalized_name": "分析化学",
+      "code": "A34020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A34020&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1316": {
+      "category_id": 1316,
+      "japanese_name": "グリーンサステイナブルケミストリー、環境化学",
+      "normalized_name": "グリーンサステイナブルケミストリー、環境化学",
+      "code": "A34030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A34030&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1317": {
+      "category_id": 1317,
+      "japanese_name": "高分子化学",
+      "normalized_name": "高分子化学",
+      "code": "A35010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A35010&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1318": {
+      "category_id": 1318,
+      "japanese_name": "高分子材料",
+      "normalized_name": "高分子材料",
+      "code": "A35020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A35020&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1319": {
+      "category_id": 1319,
+      "japanese_name": "有機機能材料",
+      "normalized_name": "有機機能材料",
+      "code": "A35030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A35030&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1320": {
+      "category_id": 1320,
+      "japanese_name": "無機物質、無機材料化学",
+      "normalized_name": "無機物質、無機材料化学",
+      "code": "A36010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A36010&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1321": {
+      "category_id": 1321,
+      "japanese_name": "エネルギー化学",
+      "normalized_name": "エネルギー化学",
+      "code": "A36020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A36020&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1322": {
+      "category_id": 1322,
+      "japanese_name": "生体化学",
+      "normalized_name": "生体化学",
+      "code": "A37010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A37010&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1323": {
+      "category_id": 1323,
+      "japanese_name": "生物分子化学",
+      "normalized_name": "生物分子化学",
+      "code": "A37020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A37020&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1324": {
+      "category_id": 1324,
+      "japanese_name": "ケミカルバイオロジー",
+      "normalized_name": "ケミカルバイオロジー",
+      "code": "A37030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A489&research_areas%5Bitem_number%5D=A37030&institution_type=A04",
+      "major_category": "ナノテク・材料",
+      "major_code": "A489",
+      "middle_category": "有机与高分子化学"
+    },
+    "1325": {
+      "category_id": 1325,
+      "japanese_name": "遺伝育種科学",
+      "normalized_name": "遺伝育種科学",
+      "code": "A39010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A39010&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1326": {
+      "category_id": 1326,
+      "japanese_name": "作物生産科学",
+      "normalized_name": "作物生産科学",
+      "code": "A39020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A39020&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1327": {
+      "category_id": 1327,
+      "japanese_name": "園芸科学",
+      "normalized_name": "園芸科学",
+      "code": "A39030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A39030&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1328": {
+      "category_id": 1328,
+      "japanese_name": "植物保護科学",
+      "normalized_name": "植物保護科学",
+      "code": "A39040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A39040&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1329": {
+      "category_id": 1329,
+      "japanese_name": "昆虫科学",
+      "normalized_name": "昆虫科学",
+      "code": "A39050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A39050&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1330": {
+      "category_id": 1330,
+      "japanese_name": "生物資源保全学",
+      "normalized_name": "生物資源保全学",
+      "code": "A39060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A39060&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1331": {
+      "category_id": 1331,
+      "japanese_name": "ランドスケープ科学",
+      "normalized_name": "ランドスケープ科学",
+      "code": "A39070",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A39070&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1332": {
+      "category_id": 1332,
+      "japanese_name": "農業社会構造",
+      "normalized_name": "農業社会構造",
+      "code": "A41020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A41020&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1333": {
+      "category_id": 1333,
+      "japanese_name": "地域環境工学、農村計画学",
+      "normalized_name": "地域環境工学、農村計画学",
+      "code": "A41030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A41030&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1334": {
+      "category_id": 1334,
+      "japanese_name": "農業環境工学、農業情報工学",
+      "normalized_name": "農業環境工学、農業情報工学",
+      "code": "A41040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A41040&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1335": {
+      "category_id": 1335,
+      "japanese_name": "環境農学",
+      "normalized_name": "環境農学",
+      "code": "A41050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A41050&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "农业科学"
+    },
+    "1336": {
+      "category_id": 1336,
+      "japanese_name": "環境動態解析",
+      "normalized_name": "環境動態解析",
+      "code": "A63010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A63010&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "环境科学"
+    },
+    "1337": {
+      "category_id": 1337,
+      "japanese_name": "放射線影響",
+      "normalized_name": "放射線影響",
+      "code": "A63020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A63020&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "环境科学"
+    },
+    "1338": {
+      "category_id": 1338,
+      "japanese_name": "化学物質影響",
+      "normalized_name": "化学物質影響",
+      "code": "A63030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A63030&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "环境科学"
+    },
+    "1339": {
+      "category_id": 1339,
+      "japanese_name": "環境影響評価",
+      "normalized_name": "環境影響評価",
+      "code": "A63040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A63040&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "环境科学"
+    },
+    "1340": {
+      "category_id": 1340,
+      "japanese_name": "環境負荷、リスク評価管理",
+      "normalized_name": "環境負荷、リスク評価管理",
+      "code": "A64010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A64010&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "环境技术与政策"
+    },
+    "1341": {
+      "category_id": 1341,
+      "japanese_name": "環境負荷低減技術、保全修復技術",
+      "normalized_name": "環境負荷低減技術、保全修復技術",
+      "code": "A64020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A64020&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "环境技术与政策"
+    },
+    "1342": {
+      "category_id": 1342,
+      "japanese_name": "環境材料、リサイクル技術",
+      "normalized_name": "環境材料、リサイクル技術",
+      "code": "A64030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A64030&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "环境技术与政策"
+    },
+    "1343": {
+      "category_id": 1343,
+      "japanese_name": "自然共生システム",
+      "normalized_name": "自然共生システム",
+      "code": "A64040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A64040&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "环境技术与政策"
+    },
+    "1344": {
+      "category_id": 1344,
+      "japanese_name": "循環型社会システム",
+      "normalized_name": "循環型社会システム",
+      "code": "A64050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A64050&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "环境技术与政策"
+    },
+    "1345": {
+      "category_id": 1345,
+      "japanese_name": "環境政策、環境配慮型社会",
+      "normalized_name": "環境政策、環境配慮型社会",
+      "code": "A64060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A389&research_areas%5Bitem_number%5D=A64060&institution_type=A04",
+      "major_category": "環境・農学",
+      "major_code": "A389",
+      "middle_category": "环境技术与政策"
+    },
+    "1346": {
+      "category_id": 1346,
+      "japanese_name": "土木材料、施工、建設マネジメント",
+      "normalized_name": "土木材料、施工、建設マネジメント",
+      "code": "A22010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A22010&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "土木工程"
+    },
+    "1347": {
+      "category_id": 1347,
+      "japanese_name": "構造工学、地震工学",
+      "normalized_name": "構造工学、地震工学",
+      "code": "A22020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A22020&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "土木工程"
+    },
+    "1348": {
+      "category_id": 1348,
+      "japanese_name": "地盤工学",
+      "normalized_name": "地盤工学",
+      "code": "A22030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A22030&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "土木工程"
+    },
+    "1349": {
+      "category_id": 1349,
+      "japanese_name": "水工学",
+      "normalized_name": "水工学",
+      "code": "A22040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A22040&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "土木工程"
+    },
+    "1350": {
+      "category_id": 1350,
+      "japanese_name": "土木計画学、交通工学",
+      "normalized_name": "土木計画学、交通工学",
+      "code": "A22050",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A22050&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "土木工程"
+    },
+    "1351": {
+      "category_id": 1351,
+      "japanese_name": "土木環境システム",
+      "normalized_name": "土木環境システム",
+      "code": "A22060",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A22060&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "土木工程"
+    },
+    "1352": {
+      "category_id": 1352,
+      "japanese_name": "建築構造、材料",
+      "normalized_name": "建築構造、材料",
+      "code": "A23010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A23010&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "建筑学"
+    },
+    "1353": {
+      "category_id": 1353,
+      "japanese_name": "建築環境、建築設備",
+      "normalized_name": "建築環境、建築設備",
+      "code": "A23020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A23020&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "建筑学"
+    },
+    "1354": {
+      "category_id": 1354,
+      "japanese_name": "建築計画、都市計画",
+      "normalized_name": "建築計画、都市計画",
+      "code": "A23030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A23030&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "建筑学"
+    },
+    "1355": {
+      "category_id": 1355,
+      "japanese_name": "建築史、意匠",
+      "normalized_name": "建築史、意匠",
+      "code": "A23040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A23040&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "建筑学"
+    },
+    "1356": {
+      "category_id": 1356,
+      "japanese_name": "社会システム工学",
+      "normalized_name": "社会システム工学",
+      "code": "A25010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A25010&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "安全与防灾"
+    },
+    "1357": {
+      "category_id": 1357,
+      "japanese_name": "安全工学",
+      "normalized_name": "安全工学",
+      "code": "A25020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A25020&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "安全与防灾"
+    },
+    "1358": {
+      "category_id": 1358,
+      "japanese_name": "防災工学",
+      "normalized_name": "防災工学",
+      "code": "A25030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A789&research_areas%5Bitem_number%5D=A25030&institution_type=A04",
+      "major_category": "社会基盤（土木・建築・防災）",
+      "major_code": "A789",
+      "middle_category": "安全与防灾"
+    },
+    "1359": {
+      "category_id": 1359,
+      "japanese_name": "プラズマ科学",
+      "normalized_name": "プラズマ科学",
+      "code": "A14010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A589&research_areas%5Bitem_number%5D=A14010&institution_type=A04",
+      "major_category": "エネルギー",
+      "major_code": "A589"
+    },
+    "1360": {
+      "category_id": 1360,
+      "japanese_name": "核融合学",
+      "normalized_name": "核融合学",
+      "code": "A14020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A589&research_areas%5Bitem_number%5D=A14020&institution_type=A04",
+      "major_category": "エネルギー",
+      "major_code": "A589"
+    },
+    "1361": {
+      "category_id": 1361,
+      "japanese_name": "プラズマ応用科学",
+      "normalized_name": "プラズマ応用科学",
+      "code": "A14030",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A589&research_areas%5Bitem_number%5D=A14030&institution_type=A04",
+      "major_category": "エネルギー",
+      "major_code": "A589"
+    },
+    "1362": {
+      "category_id": 1362,
+      "japanese_name": "原子力工学",
+      "normalized_name": "原子力工学",
+      "code": "A31010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A589&research_areas%5Bitem_number%5D=A31010&institution_type=A04",
+      "major_category": "エネルギー",
+      "major_code": "A589"
+    },
+    "1363": {
+      "category_id": 1363,
+      "japanese_name": "地球資源工学、エネルギー学",
+      "normalized_name": "地球資源工学、エネルギー学",
+      "code": "A31020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A589&research_areas%5Bitem_number%5D=A31020&institution_type=A04",
+      "major_category": "エネルギー",
+      "major_code": "A589"
+    },
+    "1364": {
+      "category_id": 1364,
+      "japanese_name": "量子ビーム科学",
+      "normalized_name": "量子ビーム科学",
+      "code": "A80040",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A589&research_areas%5Bitem_number%5D=A80040&institution_type=A04",
+      "major_category": "エネルギー",
+      "major_code": "A589"
+    },
+    "1365": {
+      "category_id": 1365,
+      "japanese_name": "航空宇宙工学",
+      "normalized_name": "航空宇宙工学",
+      "code": "A24010",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A889&research_areas%5Bitem_number%5D=A24010&institution_type=A04",
+      "major_category": "フロンティア（航空・船舶）",
+      "major_code": "A889"
+    },
+    "1366": {
+      "category_id": 1366,
+      "japanese_name": "船舶海洋工学",
+      "normalized_name": "船舶海洋工学",
+      "code": "A24020",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A889&research_areas%5Bitem_number%5D=A24020&institution_type=A04",
+      "major_category": "フロンティア（航空・船舶）",
+      "major_code": "A889"
+    },
+    "1367": {
+      "category_id": 1367,
+      "japanese_name": "新領域",
+      "normalized_name": "その他",
+      "code": "A99999",
+      "url": "https://researchmap.jp/researchers?research_areas%5Bdiscipline_number%5D=A9999&research_areas%5Bitem_number%5D=A99999&institution_type=A04",
+      "major_category": "その他",
+      "major_code": "A9999"
+    }
+  },
+  "unmatched": []
+}

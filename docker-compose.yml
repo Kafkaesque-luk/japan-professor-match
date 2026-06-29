@@ -1,0 +1,36 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.12.4
+    restart: unless-stopped
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  api:
+    build: ./api
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - PROFESSORS_DATA_PATH=/data/professors_5000.jsonl
+    depends_on:
+      - qdrant
+    volumes:
+      - ./data:/data:ro
+    ports:
+      - "8000:8000"
+
+  # One-shot: restore the pre-built professor vectors into Qdrant.
+  # `docker compose run --rm seed`  (or scripts/load_snapshot.sh)
+  seed:
+    build: ./api
+    env_file: .env
+    depends_on:
+      - qdrant
+    volumes:
+      - ./data:/data:ro
+    profiles: ["seed"]
+    command: ["python", "seed.py"]
+
+volumes:
+  qdrant_storage:

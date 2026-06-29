@@ -1,0 +1,8 @@
+# Normalize line endings: LF in the repo for all text (so the .sh script and Linux clones work).
+* text=auto eol=lf
+
+# Binary assets — never touch.
+*.gz binary
+*.png binary
+*.jpg binary
+*.jpeg binary

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professor Match — Terminal</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Professor<span class="dot">·</span>Match<span class="brand-sub">部署管理终端</span></div>
+    <nav class="tabs">
+      <button data-view="match" class="active">匹配</button>
+      <button data-view="setup">设置</button>
+    </nav>
+    <div class="spacer"></div>
+    <div class="conn-pill" id="connPill"><span class="led"></span><span id="connText">未连接</span></div>
+  </header>
+
+  <main>
+    <!-- ============ MATCH VIEW ============ -->
+    <section id="view-match">
+      <div class="card">
+        <h2>教授智能匹配</h2>
+        <p class="hint">输入研究兴趣，按语义检索匹配的日本大学教授，分三档呈现：海选匹配 / 年富力强 / 潜力洼地。</p>
+
+        <label class="fld">研究兴趣</label>
+        <textarea id="userInput" placeholder="例如：经济学中的产业组织与竞争政策；或 機械工学の振動制御"></textarea>
+
+        <div class="grid" style="grid-template-columns:1fr 1fr; margin-top:16px;">
+          <div>
+            <label class="fld">学科方向（可选，硬过滤）</label>
+            <select id="discipline"><option value="">不限（按文本自动识别）</option></select>
+          </div>
+          <div>
+            <label class="fld">指定大学（可选，最多 3 所，逗号分隔）</label>
+            <input id="universities" type="text" placeholder="例如：京都大学, 東京大学" />
+          </div>
+        </div>
+
+        <div style="margin-top:16px;">
+          <label class="fld">学校等级</label>
+          <div class="chips" id="rankChips"></div>
+        </div>
+        <div style="margin-top:14px;">
+          <label class="fld">地区</label>
+          <div class="chips" id="regionChips"></div>
+        </div>
+        <div style="margin-top:14px;">
+          <label class="fld">学校性质</label>
+          <div class="chips" id="typeChips"></div>
+        </div>
+
+        <div class="row" style="margin-top:20px;">
+          <button class="btn" id="runBtn">开始匹配</button>
+          <span class="muted" id="runHint"></span>
+        </div>
+      </div>
+
+      <div id="matchError"></div>
+      <div id="results"></div>
+    </section>
+
+    <!-- ============ SETUP VIEW ============ -->
+    <section id="view-setup" hidden>
+      <div class="card">
+        <h2>连接</h2>
+        <p class="hint">终端是后端无关的：留空＝连本机自部署的 Python；也可填线上业务服务器（经只读沙箱代理）做满血效果预览。</p>
+        <div class="grid" style="grid-template-columns:1fr;">
+          <div>
+            <label class="fld">API 地址（留空 = 同源 / 本机）</label>
+            <input id="apiBase" type="text" placeholder="https://demo.example.com  或留空" />
+          </div>
+          <div>
+            <label class="fld">管理令牌 X-Admin-Token（仅配置后端时需要；演示模式下禁用）</label>
+            <input id="adminToken" type="text" placeholder="可选" />
+          </div>
+        </div>
+        <div class="row" style="margin-top:16px;">
+          <button class="btn ghost" id="testBtn">测试连接</button>
+          <button class="btn ghost" id="loadCfgBtn">读取后端配置</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>运行状态</h2>
+        <p class="hint">来自 <code>/api/health</code>。</p>
+        <div class="kvs" id="healthKvs"><div class="muted">点击「测试连接」获取。</div></div>
+      </div>
+
+      <div class="card" id="cfgCard">
+        <h2>后端配置（运行时）</h2>
+        <p class="hint">配置嵌入 / LLM 提供方与密钥。需设置 <code>ADMIN_TOKEN</code> 且非演示模式；密钥只写入、绝不回读。</p>
+        <div class="grid" style="grid-template-columns:1fr 1fr;">
+          <div>
+            <label class="fld">嵌入提供方</label>
+            <select id="cfg_embedding_provider"><option value="dashscope">dashscope</option><option value="openai">openai</option></select>
+          </div>
+          <div>
+            <label class="fld">LLM 提供方（关键词扩展）</label>
+            <select id="cfg_llm_provider"><option value="dashscope">dashscope (Qwen)</option><option value="openai">openai</option><option value="none">none（跳过）</option></select>
+          </div>
+          <div>
+            <label class="fld">DashScope / Qwen Key</label>
+            <input id="cfg_qwen_api_key" type="text" placeholder="（已设置则留空不改）" />
+          </div>
+          <div>
+            <label class="fld">OpenAI Key</label>
+            <input id="cfg_openai_api_key" type="text" placeholder="（已设置则留空不改）" />
+          </div>
+        </div>
+        <div class="row" style="margin-top:16px;">
+          <button class="btn" id="saveCfgBtn">保存配置</button>
+          <span class="muted" id="cfgHint"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="meta.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

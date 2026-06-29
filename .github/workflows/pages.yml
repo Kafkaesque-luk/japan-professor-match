@@ -1,0 +1,54 @@
+name: Deploy demo to GitHub Pages
+
+# Publishes the web terminal to GitHub Pages. The backend it points at is NOT hard-coded:
+# set a repository variable DEMO_API_BASE (Settings -> Secrets and variables -> Actions ->
+# Variables) to your own deployment's base URL. If it's unset, the site ships the repo default
+# (same-origin), so forks never silently call someone else's backend.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble site
+        env:
+          DEMO_API_BASE: ${{ vars.DEMO_API_BASE }}
+          DEMO_MATCH_PATH: ${{ vars.DEMO_MATCH_PATH }}
+        run: |
+          mkdir -p _site
+          cp web/index.html web/app.js web/styles.css web/meta.js _site/
+          if [ -n "$DEMO_API_BASE" ]; then
+            cat > _site/config.js <<EOF
+          window.PM_CONFIG = {
+            apiBase: '${DEMO_API_BASE}',
+            matchPath: '${DEMO_MATCH_PATH:-/api/match}',
+            metaMode: 'bundled',
+            healthMode: 'none'
+          };
+          EOF
+          else
+            cp web/config.js _site/config.js   # repo default: same-origin, no external backend
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
