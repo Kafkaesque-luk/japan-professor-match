@@ -5,6 +5,9 @@
 > production system into a clean, self-hostable service. Ships with a **5,000-professor sample
 > index**, so it runs end-to-end with **zero API keys** out of the box.
 
+**Live demo:** https://kafkaesque-luk.github.io/professor-match/ — the same terminal, wired to a
+read-only, rate-limited endpoint backed by the full production index (~180k professors).
+
 You describe a research interest (in Chinese or Japanese); the system returns matched professors
 organized into three independent views:
 
@@ -86,6 +89,11 @@ is configurable — so the same UI can point at:
 
 It does double duty: a **Setup** tab (connection, health, runtime provider/key config) and a
 **Match** tab (run searches, see the three tiers grouped by school with age and match-score badges).
+
+**Publishing your own demo to GitHub Pages:** the included workflow (`.github/workflows/pages.yml`)
+deploys `web/` to Pages. Point it at your backend by setting a repository variable `DEMO_API_BASE`
+(Settings → Secrets and variables → Actions → Variables); leave it unset and the build ships the
+same-origin default, so forks never silently call someone else's backend.
 
 ## Bring your own data
 
