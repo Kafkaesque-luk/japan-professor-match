@@ -16,9 +16,9 @@ Vector search × LLM query expansion × multi-signal three-tier ranking — a co
 
 ### Skip the docs. Play with it first!
 
-## [▶▶▶ Live Demo (full-scale) ◀◀◀](https://kafkaesque-luk.github.io/professor-match/)
+## [▶▶▶ Live Demo (full-scale) ◀◀◀](https://kafkaesque-luk.github.io/japan-professor-match/)
 
-### `https://kafkaesque-luk.github.io/professor-match/`
+### `https://kafkaesque-luk.github.io/japan-professor-match/`
 
 ✧ Zero install · Opens in your browser · Backed by the ~300k-professor production index ✧
 
@@ -91,7 +91,7 @@ The tiers are **three independent criteria over the same recall pool**, each jud
 
 ```bash
 git clone <your-fork>
-cd professor-match
+cd japan-professor-match
 cp .env.example .env
 
 docker compose up -d            # Qdrant + API + web terminal
@@ -243,7 +243,7 @@ Sample data comes from public [researchmap](https://researchmap.jp) academic pro
 
 <div align="center">
 
-**Haven't tried the demo yet? Last call →** [**https://kafkaesque-luk.github.io/professor-match/**](https://kafkaesque-luk.github.io/professor-match/)
+**Haven't tried the demo yet? Last call →** [**https://kafkaesque-luk.github.io/japan-professor-match/**](https://kafkaesque-luk.github.io/japan-professor-match/)
 
 If this saved you a week of clicking through faculty pages, a Star would be lovely ★
 

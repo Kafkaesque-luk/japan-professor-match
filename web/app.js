@@ -1,4 +1,4 @@
-/* professor-match terminal — vanilla, no build, backend-agnostic.
+/* japan-professor-match terminal — vanilla, no build, backend-agnostic.
  * Desktop web layout carrying every element of the production app's professor pages:
  * three-tier tabs, school groups, professor cards (avatar / title badge / age tag /
  * score pill / keyword chips), a papers-first detail page, and a working stateless

@@ -1,5 +1,5 @@
 """
-FastAPI entry point for professor-match.
+FastAPI entry point for japan-professor-match.
 
 Endpoints
   GET  /api/health           liveness + config visibility (no secrets)
@@ -27,7 +27,7 @@ from app.pipeline import MatchError, match_professors
 from app.query import get_store
 from app.schemas import HealthResponse, MatchRequest
 
-app = FastAPI(title="professor-match", version="0.1.0")
+app = FastAPI(title="japan-professor-match", version="0.1.0")
 
 # CORS: the public demo is read-only; allow the static terminal + cross-origin previews.
 app.add_middleware(

@@ -16,9 +16,9 @@
 
 ### ドキュメントは後回し。まず触ってみて！ヽ(✿ﾟ▽ﾟ)ノ
 
-## [▶▶▶ オンラインデモ（フルスケール版） ◀◀◀](https://kafkaesque-luk.github.io/professor-match/)
+## [▶▶▶ オンラインデモ（フルスケール版） ◀◀◀](https://kafkaesque-luk.github.io/japan-professor-match/)
 
-### `https://kafkaesque-luk.github.io/professor-match/`
+### `https://kafkaesque-luk.github.io/japan-professor-match/`
 
 ✧ インストール不要 · ブラウザで開くだけ · 裏側は約 30 万教員の本番インデックス ✧
 
@@ -91,7 +91,7 @@
 
 ```bash
 git clone <your-fork>
-cd professor-match
+cd japan-professor-match
 cp .env.example .env
 
 docker compose up -d            # Qdrant + API + Web ターミナル
@@ -242,7 +242,7 @@ query
 
 <div align="center">
 
-**まだデモを触ってない？ラストチャンス →** [**https://kafkaesque-luk.github.io/professor-match/**](https://kafkaesque-luk.github.io/professor-match/)
+**まだデモを触ってない？ラストチャンス →** [**https://kafkaesque-luk.github.io/japan-professor-match/**](https://kafkaesque-luk.github.io/japan-professor-match/)
 
 教員ページ 200 連クリックの一週間を節約できたなら、Star を置いていってくれると嬉しいです ★~(◡﹏◕✿)
 

@@ -16,9 +16,9 @@
 
 ### ヽ(✿ﾟ▽ﾟ)ノ 别急着读文档，先玩一把！
 
-## [▶▶▶ 在线满血 Demo ◀◀◀](https://kafkaesque-luk.github.io/professor-match/)
+## [▶▶▶ 在线满血 Demo ◀◀◀](https://kafkaesque-luk.github.io/japan-professor-match/)
 
-### `https://kafkaesque-luk.github.io/professor-match/`
+### `https://kafkaesque-luk.github.io/japan-professor-match/`
 
 ✧ 点开就能用 · 零安装 · 背后是约 30 万教授的生产级全量索引 ✧
 
@@ -91,7 +91,7 @@
 
 ```bash
 git clone <your-fork>
-cd professor-match
+cd japan-professor-match
 cp .env.example .env
 
 docker compose up -d            # Qdrant + API + 网页终端
@@ -242,7 +242,7 @@ query
 
 <div align="center">
 
-**⊂(・ω・*⊂) 还没点过 Demo？最后一次机会 →** [**https://kafkaesque-luk.github.io/professor-match/**](https://kafkaesque-luk.github.io/professor-match/)
+**⊂(・ω・*⊂) 还没点过 Demo？最后一次机会 →** [**https://kafkaesque-luk.github.io/japan-professor-match/**](https://kafkaesque-luk.github.io/japan-professor-match/)
 
 觉得有用的话，Star 一个再走呗 ★~(◡﹏◕✿)
 
