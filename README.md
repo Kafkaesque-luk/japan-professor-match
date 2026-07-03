@@ -1,182 +1,242 @@
-# professor-match
+<div align="center">
 
-> AI matching of prospective graduate students to Japanese university professors — a RAG
-> pipeline (vector search + LLM query expansion + multi-signal tiering) extracted from a
-> production system into a clean, self-hostable service. Ships with a **5,000-professor sample
-> index**, so it runs end-to-end with **zero API keys** out of the box.
+**简体中文** | [English](README.en.md) | [日本語](README.ja.md)
 
-**Live demo:** https://kafkaesque-luk.github.io/professor-match/ — the same terminal, wired to a
-read-only, rate-limited endpoint backed by the full production index (~300k professors).
+<br/>
 
-You describe a research interest (in Chinese or Japanese); the system returns matched professors
-organized into three independent views:
+# Professor Match
 
-| Tier | 中文 | What it means |
-|------|------|----------------|
-| **Best match** | 海选匹配 | Most relevant professors by semantic similarity. |
-| **Prime-age** | 年富力强 | Relevant professors confidently estimated to be **33–55** (likely supervising for years), with age inferred from their researchmap CV. |
-| **Value picks** | 潜力洼地 | Strong matches at **non-top-30** schools — easier admission / better value. |
+**在约 30 万日本教授里，帮你捞出「对的那个人」**
 
-The tiers are three *views* over one recall pool (overlap allowed), not a relevance list cut into thirds.
+向量检索 × LLM 关键词扩展 × 多信号三档分级 —— 从真实生产系统里抽出来的完整 RAG 匹配管线
 
----
+<br/>
 
-## Quickstart
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+### ヽ(✿ﾟ▽ﾟ)ノ 别急着读文档，先玩一把！
+
+## [▶▶▶ 在线满血 Demo ◀◀◀](https://kafkaesque-luk.github.io/professor-match/)
+
+### `https://kafkaesque-luk.github.io/professor-match/`
+
+✧ 点开就能用 · 零安装 · 背后是约 30 万教授的生产级全量索引 ✧
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+</div>
+
+<br/>
+
+## 这是个啥 (・∀・)？
+
+一句话：**用中文（或日文）描述你的研究兴趣，它在全日本的教授里给你做语义匹配**，还贴心地把结果分成三档端上来。
+
+申请过日本大学院的都懂，找教授这事儿的传统姿势是：
+
+- 打开大学官网 → 点开 200 个教授个人页 → 看到第 30 个时已经忘了第 3 个是谁 (´；ω；`)
+- 好不容易看对眼一位，定睛一看——明年退休。研究计划书白写了 (╯°□°)╯︵ ┻━┻
+- 或者花大几万找中介，中介转头打开 Excel 开始人肉 Ctrl+F（真事）
+
+于是有了这个项目：你用人话说出想研究什么，机器替你把全日本的教授筛一遍 (•̀ᴗ•́)و
+
+## 为什么不直接问 ChatGPT？(灵魂拷问)
+
+问得好。你完全可以打开随便哪家大模型问：「日本有哪些研究医学影像 AI 的教授？」它会**凭印象**给你报三五个大牛——然后就没了。开联网搜索也一样：它顶多翻几十个网页，翻到谁算谁。
+
+这个项目的做法笨得多，也准得多：**提前把约 30 万位教授的履历全部算成向量，存在自己手里**。你一句话进来：
+
+1. **广撒网**——跟 30 万人**挨个**比语义，一个不漏；
+2. **精筛分档**——学科硬闸卡掉张冠李戴的，再按相关度排序、按年龄和学校层次分档。
+
+|  | 直接问大模型（含联网搜索） | Professor Match |
+|--|------------------------|-----------------|
+| 覆盖面 | 翻几十个网页，翻到谁算谁 | 约 30 万教授**全员过筛** |
+| 找人逻辑 | 凭"印象"报大牛，冷门教授永远轮不到 | 语义比对，冷门但对口的照样浮上来 |
+| 真实性 | 可能编人名、编研究方向（幻觉） | 每条结果 = 一行真实履历，论文链接点开就能验 |
+| 条件筛选 | 「33–55 岁」「非 Top30」它做不到 | 结构化字段硬过滤 |
+| 拿到手的 | 一段话几个名字，聊完就没 | 分档列表 + 详情页 + 还能跟教授"对话" |
+
+一句话：大模型是**记性好的通才**，这活儿需要的是**户口本在手的排查员**。先全量、后精排——这就是数据和向量必须握在自己手里的原因，也是套壳 prompt 永远做不出来的准确度。
+
+## 眼见为实 📸
+
+以「医学影像的深度学习分析」为例，一次真实查询的全过程：
+
+**① 匹配结果** —— 三档页签 + 按校分组 + 扩展关键词。注意最上面那行小字：LLM 把你的一句中文膨胀成了十个日文学术关键词，这就是查得准的秘密之一。
+
+![匹配结果](docs/screenshots/match.png)
+
+**② 教授详情页** —— 研究论文全解析置顶（査読徽章、PDF 外链、一键复制引用），右侧是履历档案。看着像认真做过的产品？因为它就是从生产 App 一比一搬来的 (￣▽￣)
+
+![教授详情](docs/screenshots/detail.png)
+
+**③ AI 模拟对话** —— 重头戏。点「AI模拟对话」，大模型现场读取这位教授的公开履历，以第一人称跟你聊：
+
+![AI 模拟对话](docs/screenshots/chat.png)
+
+> 注意看：这位「根本教授」（AI 扮演，抽屉顶部写得明明白白「非本人」）开口就是自己的医学影像机器学习方向，还反过来问我的研究背景——这不是写死的台词，是按每位教授的论文和履历**现场组装的人格**。换一位教授，画风完全不同。
+
+## 三档分级：不是把一个榜单切三刀 (￢_￢)
+
+市面上很多「分档」是把相关性排名砍三段糊弄人。这里的三档是**同一个召回池的三个独立视角**（允许重叠）：
+
+| 档位 | 说白了就是 |
+|------|-----------|
+| **海选匹配** | 语义上跟你最对口的，硬实力档 |
+| **年富力强** | 33–55 岁的对口教授。researchmap 没人填生日，年龄是从「哪年博士毕业」「哪年当上讲师」反推的，带置信度。专治「跟了一年教授就退休」惨案 |
+| **潜力洼地** | 非 Top30 院校里的强匹配。竞争小、好申请，性价比之选 (¬‿¬) |
+
+## 快速开始（自部署，零 API Key 起跑）
 
 ```bash
 git clone <your-fork>
 cd professor-match
 cp .env.example .env
 
-docker compose up -d            # Qdrant + API + web terminal
-docker compose run --rm seed    # restore the bundled 5,000-professor vector index
+docker compose up -d            # Qdrant + API + 网页终端
+docker compose run --rm seed    # 灌入自带的 5000 教授向量索引
 
-# open the deployment terminal:
+# 打开部署终端：
 open http://localhost:8000
 ```
 
-Searching the bundled sample needs **no API keys** — the vectors are pre-built. You only need a
-key to embed *brand-new* queries (DashScope or OpenAI) or to rebuild the index from your own data.
-Set one in `.env`, or configure it live in the terminal's **Setup** tab.
+为什么零 Key 能跑？因为 5000 位样本教授的向量**已经算好打包在仓库里**。只有两种情况才需要你自己的 Key（DashScope 或 OpenAI）：给**新查询**做嵌入、或者用**自己的数据**重建索引。填在 `.env` 或终端「设置」页都行。
 
-> Want to try the algorithm without Docker? `python scripts/verify_pipeline.py` runs the whole
-> retrieval → tiering → grouping chain against the sample in an in-memory Qdrant.
+> 不想装 Docker，只想看看算法是不是真的？`python scripts/verify_pipeline.py` 在内存里跑通整条「检索 → 分档 → 分组」链路，零依赖零密钥 ᕕ( ᐛ )ᕗ
 
----
+## 技术架构：麻雀虽小，五脏是生产级的
 
-## How it works
+两条腿，共用一套脑子——网页终端是后端无关的，连谁都是同一套体验：
+
+```text
+                          你（浏览器）
+                              │
+               ┌──────────────┴───────────────┐
+               │    网页终端 web/（零构建 SPA）   │
+               └──────┬────────────────┬──────┘
+         自部署路线     │                │     在线 Demo 路线
+                      ▼                ▼
+        ┌──────────────────┐   ┌─────────────────────────┐
+        │  FastAPI（api/）  │   │ 生产沙箱端点（只读 + 三层限流 │
+        │  检索/分档/对话     │   │ + 自动封禁 + 一键熔断开关）  │
+        └──┬───────────┬───┘   └────────────┬────────────┘
+           ▼           ▼                    ▼
+      ┌─────────┐ ┌──────────────┐   生产全量索引
+      │ Qdrant  │ │  DashScope / │  （约 30 万教授向量
+      │ 5000样本 │ │ OpenAI(可选) │   + researchmap 履历
+      └─────────┘ └──────────────┘   + Redis 限流/缓存）
+```
+
+- **检索层**：Qdrant，1024 维 cosine（DashScope text-embedding-v4），单次召回 150 候选；地区 / 学校排名 / 国公私立等全部塞进向量 payload，**过滤在库内完成，不回表**。
+- **数据层**：每位教授一份 researchmap 风格履历 JSON（学历 / 职历 / 论文 / 获奖 / 专利）。年龄在生产侧是**离线回填的侧表（14 万+ 行）**，线上只读不现算；开源版内置同款估算器，实时算给你看。
+- **对话层**：五层 persona prompt（身份锚定 / 履历记忆 / 关键词趋势 / 方法论 / 风格约束 + 逐字段防幻觉），按教授缓存组装结果；**对话完全无状态**，历史由浏览器携带，服务端零存储。
+- **防护层**（在线 Demo）：三层限流（每 IP 每小时 / 每 IP 每天 / 全局每天）+ 滥用自动封禁 + fail-closed（缓存挂了宁可拒绝也不放行）+ 环境变量总开关。
+
+一次请求走的流水线：
 
 ```text
 query
-  └─▶ keyword expansion        (LLM; optional — degrades to the raw query)
-  └─▶ discipline → cate_id      (deterministic hard filter; "economics" can't return law)
-  └─▶ embed                     (DashScope text-embedding-v4 / OpenAI)
-  └─▶ Qdrant vector search      (+ payload filters: region / rank / school-type / university)
-  └─▶ three-tier bucketing      (relevance · prime-age 33–55 · value non-top-30)
-  └─▶ group by school + stats
+  └─▶ 关键词扩展         （LLM;可选 — 没 Key 自动降级为原句检索）
+  └─▶ 学科 → cate_id     （确定性硬过滤;"经济学"绝不会给你端出法学教授）
+  └─▶ 嵌入               （DashScope text-embedding-v4 / OpenAI）
+  └─▶ Qdrant 向量检索    （+ 地区 / 排名 / 国公私立 / 指定大学 过滤）
+  └─▶ 三档分桶           （相关性 · 33–55 当打之年 · 非 Top30 洼地）
+  └─▶ 按校分组 + 统计
 ```
 
-The deterministic core — age estimation, discipline detection, filter conversion, tiering,
-school grouping — is a faithful port of the production PHP and is covered by tests
-(`api/tests/test_core.py`). The professor age estimator infers a birth year from multiple CV
-signals (explicit birth year, degree years, first appointment + title) and reports a confidence;
-the prime-age tier keeps only high/medium-confidence ages in `[33, 55]`.
+确定性核心（年龄估算、学科硬过滤、筛选转换、三档分桶、按校分组）是对生产 PHP 的**逐行忠实移植**，有行为测试盯着（`api/tests/test_core.py`）。连生产代码里的历史怪癖都原样保留——毕竟要的就是「和线上一个味儿」。
 
-## Configuration
+## 性能与成本：一次匹配到底花多少钱
 
-All via environment (`.env`). The important ones:
+抠成本抠到小数点后三位，是因为生产环境真的按这个付账 (´･ω･`)
 
-| Variable | Default | Notes |
-|----------|---------|-------|
-| `QDRANT_URL` | `http://qdrant:6333` | Vector DB. |
-| `EMBEDDING_PROVIDER` | `dashscope` | `dashscope` (matches the bundled index) or `openai`. |
-| `EMBEDDING_API_KEY` / `QWEN_API_KEY` | — | DashScope key (only needed to embed new queries). |
-| `OPENAI_API_KEY` | — | If using `openai` (different model/dim → rebuild the index). |
-| `LLM_PROVIDER` | `dashscope` | Keyword expansion: `dashscope` / `openai` / `none`. |
-| `DEMO_MODE` | `false` | Disables admin config endpoints (use for a public demo). |
-| `ADMIN_TOKEN` | — | Enables the terminal's live config (sent as `X-Admin-Token`). |
+| 环节 | 耗时（实测量级） | 边际成本（按 DashScope 公开定价估算） |
+|------|----------------|-----------------------------------|
+| LLM 关键词扩展 | 2–5 s（全链路的大头） | 数百 token，≈ ¥0.002 |
+| 查询嵌入 | 200–500 ms | 一句话的量，≈ ¥0.0001 |
+| Qdrant 向量检索（约 30 万规模） | < 100 ms | 0（自托管） |
+| 三档分桶 + 按校分组 + 年龄注入 | < 50 ms | 0（纯 CPU，确定性逻辑） |
+| **一次完整匹配** | **≈ 3–10 s** | **< ¥0.005（不到一分钱）** |
+| AI 模拟对话一轮（qwen-max） | 2–4 s | ≈ ¥0.02–0.05 |
 
-> If you switch to OpenAI embeddings, the dimensionality changes — you must rebuild the index
-> (`scripts/build_index.py`); the bundled DashScope vectors are not comparable to OpenAI vectors.
+看明白了吧：**贵的从来不是检索，是 LLM**。所以架构上处处在省：
 
-## The web terminal
+- 关键词扩展**可降级**——没配 Key 就用原句直接检索，准头略降但一分钱不花；
+- persona prompt **按教授缓存**——同一位教授的人设只组装一次，不重复读库拼装；
+- 库侧向量**一次算好终身复用**——开源包直接附带生产原版向量，你克隆下来时嵌入费已经是 0；
+- 在线 Demo 的**全局日闸把最坏情况封死**——就算被脚本刷到天亮，一天的账单也就一杯蜜雪冰城 (´∀｀)
 
-A single-page, zero-dependency console served at `/`. It is **backend-agnostic** — the API base
-is configurable — so the same UI can point at:
+## 准确度是怎么磨出来的：三轮迭代的心血账
 
-- your **self-hosted Python** API (the bundled sample), or
-- a **live upstream** deployment (e.g. behind a read-only proxy) for a full-scale preview.
+这套管线不是一次写对的。捡几个印象最深的坑，给同样在做 RAG 匹配的朋友避雷：
 
-It does double duty: a **Setup** tab (connection, health, runtime provider/key config) and a
-**Match** tab. Match results render in a **desktop web layout carrying every element of the
-production mobile app** — the three-tier tabs (counts + info tooltips), school groups, professor
-cards (avatar, title badge, estimated-age tag, match-score pill, research-keyword chips, hover
-lift), and a click-through **professor detail page**: a hero header (avatar, name, affiliation,
-age/title ribbon) above a two-column body with **publications first** in the main column
-(parsed citations, peer-review badges, external links, copy-citation; always rendered — an
-honest empty state when the CV has none), education/career timelines, awards and patents, and
-an info sidebar (basic info, research keywords/field, output statistics). The card/detail
-parsing logic (`web/professor.js`) is a faithful port of the production frontend helpers.
+**第一轮：假三档事件。** 最早的三档叫「大众推荐 / 小众推荐 / 隐藏宝藏」——听着很美，实际是把同一个榜单切三刀，前 50 名叫大众、后面叫小众。被当场戳穿「这不就是一个列表假装三个列表」(¬_¬;) 推倒重来：现在的三档是**三个独立判据**（相关性 / 年龄 / 学校层次），各查各的、允许重叠。
 
-The **AI simulated dialog** button on the detail page opens a chat drawer that actually works:
-the backend rebuilds the production five-layer persona prompt (identity anchor / CV memory /
-data-driven keyword trend / methodology / style constraints, plus anti-hallucination guards)
-from the professor's public CV and answers in character. The chat is stateless — the browser
-carries the history; nothing is stored server-side.
+**第二轮：跨学科污染。** 搜「经济学的产业组织」，结果混进文学部和法学部——向量觉得「组织」「制度」哪儿都像。教训：**语义检索会漂，必须有确定性硬闸**。加了学科硬过滤后，LLM 和向量只能在闸内发挥。宁可少召回，不能张冠李戴。
 
-The detail page is powered by `GET /api/professor/{id}` and the chat by
-`POST /api/professor/{id}/chat` (needs an LLM key; returns a clear error otherwise). When
-pointing at a different backend, set `detailPath` / `chatPath` in `config.js` (`'{id}'`
-placeholder) alongside `matchPath`.
+**第三轮：扩展 prompt 被劫持。** 生产版曾把用户档案里的目标专业混进关键词扩展做"个性化"。结果档案填了「幾何学」的用户搜「电子商务」，扩展出满屏几何词。修法：**本次输入独占主题，冲突的上下文一律忽略**。prompt 工程第一课：你塞给模型的每段上下文，都在抢方向盘。
 
-**Publishing your own demo to GitHub Pages:** the included workflow (`.github/workflows/pages.yml`)
-deploys `web/` to Pages. Point it at your backend by setting repository variables `DEMO_API_BASE`
-(+ optional `DEMO_MATCH_PATH` / `DEMO_DETAIL_PATH` / `DEMO_CHAT_PATH`) under Settings → Secrets
-and variables → Actions → Variables; leave them unset and the build ships the same-origin
-default, so forks never silently call someone else's backend.
+**年龄估算的执念。** 没人填生日，但「哪年博士毕业」「哪年当讲师」是有的。多信号反推：明确记载 > 学位年份 > 初次任职+职称惯例，置信度逐级降；**只有中高置信度才能进「年富力强」档**。宁可漏，不可错——把 60 岁教授当 40 岁推荐，比不推荐严重一百倍。
 
-## Bring your own data
+**匹配度校准。** 余弦相似度原始值挤在 0.30–0.62，直接展示的话「45%」会被读成不匹配（其实已经很对口）。重新拉伸到 62–97%，让人一眼读出差距。校准的是人的感知，不是余弦。
 
-The bundled sample is exact production vectors (zero-cost, instant). To use your own professors:
+## 在线 Demo vs 自部署
 
-1. Prepare rows as JSONL (`product_id`, `store_name`, `extend`, `school_rank`, `school_name`,
-   `school_type`, `school_region_id`, `cate_id`, `image`). `extend` is a researchmap-style CV JSON.
-2. `python scripts/build_index.py --rows data/your_rows.jsonl` (needs an embedding key; re-embeds).
+|  | 在线 Demo | 自部署 |
+|--|----------|--------|
+| 教授规模 | **约 30 万**（生产全量索引） | 5000 样本 |
+| 需要安装 | 什么都不用 | Docker |
+| AI 模拟对话 | 直接可用 | 配一个 LLM Key 即可用 |
+| 限制 | 只读 + 限流：每 IP 每天 20 次匹配。额度全球玩家共享，手下留情；爬虫爬太狠会被自动请进小黑屋 24 小时 (¬_¬) | 随便折腾 |
 
-`scripts/export_from_prod.py` is a read-only reference exporter for pulling a sample from an
-existing CRMEB-style MySQL + Qdrant source over SSH (configure via `PM_*` env vars).
+## 网页终端
 
-## Project layout
+零依赖、零构建的单页控制台，**后端无关**：同一套界面既能连你本机自部署的 Python API，也能（经只读沙箱）连满血线上部署。「设置」页管连接与运行时配置，「匹配」页就是上面截图里的完整桌面体验——三档页签、按校分组卡片、教授详情页（论文置顶 + 履历时间轴 + 获奖专利）、AI 对话抽屉，卡片与详情的解析逻辑（`web/professor.js`）与生产前端逐行同源。
 
-```text
-api/        FastAPI service
-  app/      pipeline + deterministic core + providers + qdrant client
-  tests/    behavioural tests for the core
-  seed.py   restore the snapshot into Qdrant
-web/        the deployment terminal (static, no build)
-data/       professors_5000.jsonl.gz + qdrant_snapshot/ (pre-built vectors)
-scripts/    export / build_index / verify
-```
+连到别的后端时在 `config.js` 里配 `matchPath` / `detailPath` / `chatPath`（`{id}` 占位符）。
 
-## Development
+**把你自己的 demo 发上 GitHub Pages**：自带 workflow（`.github/workflows/pages.yml`）会把 `web/` 发布到 Pages。想让它指向你的后端，在仓库 Settings → Actions → Variables 里设 `DEMO_API_BASE`（可选 `DEMO_MATCH_PATH` / `DEMO_DETAIL_PATH` / `DEMO_CHAT_PATH`）；不设就用同源默认——所以 fork 走的人永远不会悄悄打到别人的后端上 (･ω<)☆
 
-```bash
-cd api && pip install -r requirements.txt && python -m pytest -q
-```
+## 配置
 
-## Data & privacy
+全部走环境变量（`.env`），重要的就这几个：
 
-The sample is drawn from public [researchmap](https://researchmap.jp) academic profiles (names,
-affiliations, publication links). It contains no contact details and no business data. If you
-prefer, pseudonymize before publishing your own export.
+| 变量 | 默认 | 说明 |
+|------|------|------|
+| `QDRANT_URL` | `http://qdrant:6333` | 向量库 |
+| `EMBEDDING_PROVIDER` | `dashscope` | `dashscope`（与自带索引同源）或 `openai` |
+| `EMBEDDING_API_KEY` / `QWEN_API_KEY` | — | DashScope Key（只有嵌入新查询才需要） |
+| `OPENAI_API_KEY` | — | 用 `openai` 时填（维度不同 → 需重建索引） |
+| `LLM_PROVIDER` | `dashscope` | 关键词扩展：`dashscope` / `openai` / `none` |
+| `DEMO_MODE` | `false` | 公开演示时置 true，关掉 admin 配置端点 |
+| `ADMIN_TOKEN` | — | 启用终端的运行时配置（请求头 `X-Admin-Token`） |
+
+> 换 OpenAI 嵌入 = 换向量维度，自带的 DashScope 向量不通用，要 `scripts/build_index.py` 重建。
+
+## 用你自己的数据
+
+自带样本是生产原版向量（零成本、即开即用）。想换成你自己的教授库：
+
+1. 按 JSONL 准备行（`product_id`、`store_name`、`extend`、`school_rank`、`school_name`、`school_type`、`school_region_id`、`cate_id`、`image`），`extend` 是 researchmap 风格的履历 JSON。
+2. `python scripts/build_index.py --rows data/your_rows.jsonl`（需要嵌入 Key，会重新算向量）。
+
+`scripts/export_from_prod.py` 是只读参考导出器，可从 CRMEB 风格的 MySQL + Qdrant 经 SSH 拉样本（`PM_*` 环境变量配置）。
+
+## 数据与隐私
+
+样本数据来自公开的 [researchmap](https://researchmap.jp) 学术主页（姓名、所属、论文链接），**不含联系方式、不含任何业务数据**。AI 对话完全无状态：历史由你的浏览器自己带着，服务端不存一个字。介意的话，发布自己的导出前可以先做匿名化。
 
 ## License
 
-[MIT](LICENSE). Set the copyright holder in `LICENSE` to your name/org before publishing.
+[MIT](LICENSE)。发布你自己的版本前，记得把 `LICENSE` 里的版权人改成你自己。
 
----
+<br/>
 
-## 中文说明
+<div align="center">
 
-**professor-match** 是把一套生产中的「AI 教授匹配」功能抽离成的独立、可自部署服务：输入研究兴趣
-（中文或日文），按语义检索匹配的日本大学教授，分三档呈现——**海选匹配**（最相关）、**年富力强**
-（据履历推算 33–55 岁、还能稳妥带人）、**潜力洼地**（非顶尖校、性价比高）。三档是同一召回池的三个
-独立视角，允许重叠。
+**⊂(・ω・*⊂) 还没点过 Demo？最后一次机会 →** [**https://kafkaesque-luk.github.io/professor-match/**](https://kafkaesque-luk.github.io/professor-match/)
 
-仓库自带 **5000 位教授的预建向量索引**，`docker compose up` + `docker compose run --rm seed`
-即可**零密钥**端到端运行。只有在为**新查询**做嵌入或用**自有数据**重建索引时才需要 DashScope /
-OpenAI 密钥（在 `.env` 或终端「设置」页填写）。
+觉得有用的话，Star 一个再走呗 ★~(◡﹏◕✿)
 
-**算法忠实性**：年龄估算、学科硬过滤、筛选转换、三档分桶、按校分组等确定性逻辑，是对生产 PHP 的
-逐行移植，并有测试覆盖（`api/tests/`）。检索复用生产同款嵌入模型与向量，结果与生产同源。
-
-**网页终端**后端无关：同一套界面既能连本机自部署的 Python，也能（经只读代理）连线上满血部署做效果预览
-（线上演示背后是生产全量约 30 万教授索引；自部署跑的是自带的 5000 教授样本）。
-匹配结果以**电脑端网页布局**承载生产 App 的全部要素——三档页签、按校分组、教授卡片（头像/职称/预估年龄/匹配度/研究关键词），
-点击卡片进入**教授详情页**：英雄区（头像、姓名、所属、年龄/职称绶带）+ 双栏正文，**研究论文置顶主栏**
-（解析出标题/作者/期刊/日期，査読徽章、外链、引用复制，无论文时诚实提示），教育背景/职业经历时间轴、获奖、专利，
-侧栏为基本信息、研究关键词/分野、成果统计。详情页的「AI模拟对话」是真实可用的：后端按教授公开履历重建生产同款
-五层 persona prompt（身份锚定/档案记忆/关键词趋势/科研手法/风格约束+防幻觉），以教授第一人称作答；
-对话无状态，历史由浏览器携带，服务端不存任何记录。
-
-数据来自公开的 [researchmap](https://researchmap.jp) 学术主页，不含联系方式与业务数据。
+</div>
